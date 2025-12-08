@@ -1,0 +1,7 @@
+2025-12-08 13:57:28,656 INFO     Monitor Hub Data Manager Initialized.
+2025-12-08 13:57:34,067 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'normal', 'Timestamp': '2025-12-08 13:57:34', 'Data': {'type': 'normal', 'time': '2025-12-08 13:57:31', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 13:57:34,067 WARNING  ID: %s not login before.
+2025-12-08 13:57:36,099 INFO     Raw Data: {'ID': 'modbusControl01', 'Action': 'normal', 'Timestamp': '2025-12-08 13:57:36', 'Data': {'type': 'normal', 'time': '2025-12-08 13:57:32', 'message': 'normal : Pass:PLC Control Loop Normal'}}
+2025-12-08 13:57:36,101 WARNING  ID: %s not login before.
+2025-12-08 13:57:44,094 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'normal', 'Timestamp': '2025-12-08 13:57:44', 'Data': {'type': 'normal', 'time': '2025-12-08 13:57:43', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 13:57:44,094 WARNING  ID: %s not login before.

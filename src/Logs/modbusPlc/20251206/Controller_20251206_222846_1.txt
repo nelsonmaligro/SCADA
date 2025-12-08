@@ -1,0 +1,30 @@
+2025-12-06 22:28:46,144 INFO     PLC connection established
+2025-12-06 22:28:46,144 INFO     PLC controller verification loop started
+2025-12-06 22:28:46,144 INFO     Start one around verification.
+2025-12-06 22:28:56,145 INFO     Random generated input: [0, 0, 0, 0, 1, 0, 0, 0]
+2025-12-06 22:28:56,145 INFO     Expected output: [False, True, False, True, False, False, True, False]
+2025-12-06 22:29:27,953 INFO     Get PLC result: None
+2025-12-06 22:29:27,953 INFO     Lost connection to target PLC
+2025-12-06 22:29:27,954 INFO     Start one around verification.
+2025-12-06 22:29:37,956 INFO     Random generated input: [0, 0, 0, 1, 0, 0, 0, 1]
+2025-12-06 22:29:37,956 INFO     Expected output: [False, True, False, True, True, False, True, False]
+2025-12-06 22:29:39,759 INFO     Get PLC result: None
+2025-12-06 22:29:39,759 INFO     Lost connection to target PLC
+2025-12-06 22:29:39,759 INFO     Start one around verification.
+2025-12-06 22:29:49,760 INFO     Random generated input: [1, 1, 1, 0, 0, 1, 0, 1]
+2025-12-06 22:29:49,761 INFO     Expected output: [True, False, False, False, False, False, False, True]
+2025-12-06 22:29:51,566 INFO     Get PLC result: None
+2025-12-06 22:29:51,567 INFO     Lost connection to target PLC
+2025-12-06 22:29:51,568 INFO     Start one around verification.
+2025-12-06 22:30:01,569 INFO     Random generated input: [1, 1, 0, 0, 1, 1, 0, 0]
+2025-12-06 22:30:01,570 INFO     Expected output: [False, False, False, False, False, False, True, True]
+2025-12-06 22:30:03,375 INFO     Get PLC result: None
+2025-12-06 22:30:03,375 INFO     Lost connection to target PLC
+2025-12-06 22:30:03,375 INFO     Start one around verification.
+2025-12-06 22:30:13,376 INFO     Random generated input: [1, 1, 0, 1, 0, 1, 1, 0]
+2025-12-06 22:30:13,376 INFO     Expected output: [False, False, False, True, False, False, True, True]
+2025-12-06 22:30:15,181 INFO     Get PLC result: None
+2025-12-06 22:30:15,181 INFO     Lost connection to target PLC
+2025-12-06 22:30:15,182 INFO     Start one around verification.
+2025-12-06 22:30:25,183 INFO     Random generated input: [0, 0, 1, 1, 0, 1, 0, 0]
+2025-12-06 22:30:25,184 INFO     Expected output: [False, True, False, True, False, False, True, True]

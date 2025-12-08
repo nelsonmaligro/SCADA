@@ -1,0 +1,89 @@
+{% extends 'mgmbase.html' %}
+
+{% block title %} Logic Controller - Modicon M221 {% endblock %}
+
+{% block style%} <style></style> {% endblock %}
+
+{% block mgmContent %}
+
+<ul class="list-group">
+
+    <li class="list-group-item">
+        <h3> <b class="text-success"> Discover Modicon M221 </b></h3>
+        <p> <b>Modicon M221 PLC : The best performance for its size</b> </p>
+        <p>
+            The Modicon M221 logic controller offers best-in-class performance. Available in brick or 
+            book format, it requires minimal installation and offers tremendous versatility. Connect 
+            a simple remote operator panel for instant maintenance and machine visualization.
+        </p>
+    </li>
+    <li class="list-group-item">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="{{url_for('static', filename='img/plcImg.png')}}" align="left" class="img-thumbnail" />
+            </div>
+            <div class="col-sm-6">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Range of product</th>
+                            <th>Modicon M221</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><b>Product or component type</b></td>
+                            <td>Logic controller</td>
+                        </tr>
+                        <tr>
+                            <td><b>[Us] rated supply voltage</b></td>
+                            <td>100...240 V AC</td>
+                        </tr>
+                        <tr>
+                            <td><b>Discrete input number</b></td>
+                            <td>9, discrete input conforming to IEC 61131-2 Type 1</td>
+                        </tr>
+                        <tr>
+                            <td><b>Analogue input number</b></td>
+                            <td>2 at 0...10 V</td>
+                        </tr>
+                        <tr>
+                            <td><b>Discrete output type</b></td>
+                            <td>Relay normally open</td>
+                        </tr>
+                        <tr>
+                            <td><b>Discrete output number</b></td>
+                            <td>7 relay</td>
+                        </tr>
+                        <tr>
+                            <td><b>Discrete output voltage</b></td>
+                            <td>5...125 V DC or 5...250 V AC</td>
+                        </tr>
+                        <tr>
+                            <td><b>Discrete output current</b></td>
+                            <td>2 A</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </li>
+
+    <li class="list-group-item">
+        <h4> <b class="text-success"> Product Description</b></h4>
+        <p> This product is part of the Modicon M221 range, an offer of programmable logic controllers for hardwired architectures. 
+            This logic controller provides 9 discrete inputs and 7 relay outputs with 10bit input resolution, normally opened relay 
+            output. It is a Modicon logic controller with a rated supply voltage of 100V to 240V AC, an output voltage of 5V to 125V 
+            DC, 5V to 250V AC and an output current of 2A with sink or source input logic. This product requires minimal installation 
+            and offers tremendous versatility. Integrated connections are USB port with mini B USB 2.0 connector, non isolated serial 
+            link serial 1 with RJ45 connector and RS485 interface and non isolated serial link serial 2 with RJ45 connector and RS232/RS485 
+            interface. It is a Modicon M221 controller with a network frequency of 50/60Hz, 256KB for internal variables RAM, user 
+            application and data RAM, built-in flash memory of 256KB and SD card memory capacity of 2GB. It is an IP20 rated product. 
+            Its dimensions are 95mm (Width) x 70mm (Depth) x 90mm (Height). It weighs 0.346kg. This product is certified by CE, IACS E10, 
+            RCM, ABS, LR, DNV-GL, CSA, EAC and CULus. It meets EN/IEC 60664-1, EN/IEC 61131-2 and EN/IEC 61010-2-201 standards. It supports 
+            DIN rail mount. Achieve benchmark performance while increasing profitability with the Modicon M221 through intuitive machine 
+            programming with SoMachine Basic, ready-to-use applications and function blocks
+        </p>
+    </li>
+</ul>
+{% endblock %}

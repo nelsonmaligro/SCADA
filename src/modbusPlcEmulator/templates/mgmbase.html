@@ -1,0 +1,82 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<hr>
+<div class="row">
+    <div class="col-sm-2">
+        
+        <ul class="list-group"> 
+
+        <li class="list-group-item">   
+            <div class="list-group">
+                <a href="{{ url_for('index')}}" class="list-group-item list-group-item-action {% if posts['page'] == 0 %} bg-success {% endif %}">
+                    <b class="{% if posts['page'] == 0 %} text-white {% endif %} "> PLC Introduction </b>
+                </a>
+            </div>
+        </li>
+        <li class="list-group-item">
+            {% if current_user.is_authenticated %}
+             
+                <div class="list-group">
+                    <a href="{{ url_for('plcstate')}}" class="list-group-item list-group-item-action {% if posts['page'] == 1 %} bg-success {% endif %}"> 
+                        <b class="{% if posts['page'] == 1 %} text-white {% endif %} "> PLC State </b>
+                    </a>
+                </div>
+
+                <div class="list-group">
+                    <a href="{{ url_for('configuration')}}" class="list-group-item list-group-item-action {% if posts['page'] == 2 %} bg-success {% endif %}"> 
+                        <b class="{% if posts['page'] == 2 %} text-white {% endif %} "> Access Configuration </b>
+                    </a>
+                </div>
+
+                {% if current_user.name=='admin'%}
+                    <div class="list-group">
+                        <a href="{{ url_for('accmgmt')}}" class="list-group-item list-group-item-action {% if posts['page'] == 3 %} bg-success {% endif %}"> 
+                            <b class="{% if posts['page'] == 3 %} text-white {% endif %} "> User Configuration </b>
+                        </a>
+                    </div>
+                {%endif%}
+                <div class="list-group">
+                    <a class="list-group-item list-group-item-action" href="{{ url_for('auth.logout') }}"> <b> Logout </b> </a>
+                </div>
+            {% else %}
+                
+                <form method="POST" action="/login">
+                    <div class="mb-3 mt-3">
+                        <label for="email">PLC Management Account:</label>
+                        <input type="text" class="form-control" id="account" placeholder="Enter account" name="account">
+                    </div>
+                    <div class="mb-3">
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter password"
+                            name="password">
+                    </div>
+                    <div class="form-check mb-3">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            {% endif %}
+        </li>
+
+        <li class="list-group-item">   
+            <div class="list-group">
+                <img src="{{url_for('static', filename='img/venderLogo.png')}}" style="width:220px;" class="rounded">
+            </div>
+            {% for message in get_flashed_messages() %}
+            <div class="alert alert-danger"> {{message}}</div>
+            {% endfor %}
+        </li>
+
+        </ul>
+    </div>
+
+    <div class="col-sm-10">
+        {% block mgmContent %}
+        {% endblock %}
+
+    </div>
+</div>
+{% endblock %}

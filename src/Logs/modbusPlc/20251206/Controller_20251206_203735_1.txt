@@ -1,0 +1,350 @@
+2025-12-06 20:37:46,715 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:37:46,717 INFO     Read coil state: None
+2025-12-06 20:37:47,719 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:37:47,719 INFO     Read coil state: None
+2025-12-06 20:37:48,720 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:37:48,720 INFO     Read coil state: None
+2025-12-06 20:37:49,721 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:37:49,721 INFO     Read coil state: None
+2025-12-06 20:37:50,722 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:37:50,724 INFO     Read coil state: None
+2025-12-06 20:37:51,725 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:37:51,725 INFO     Read coil state: None
+2025-12-06 20:37:52,726 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:37:52,726 INFO     Read coil state: None
+2025-12-06 20:37:53,726 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:37:53,727 INFO     Read coil state: None
+2025-12-06 20:37:54,727 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:37:54,728 INFO     Read coil state: None
+2025-12-06 20:37:55,730 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:37:55,730 INFO     Read coil state: None
+2025-12-06 20:37:56,731 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:37:56,732 INFO     Read coil state: None
+2025-12-06 20:37:57,733 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:37:57,733 INFO     Read coil state: None
+2025-12-06 20:37:58,734 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:37:58,735 INFO     Read coil state: None
+2025-12-06 20:37:59,736 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:37:59,736 INFO     Read coil state: None
+2025-12-06 20:38:00,736 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:00,736 INFO     Read coil state: None
+2025-12-06 20:38:01,738 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:01,738 INFO     Read coil state: None
+2025-12-06 20:38:02,740 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:02,740 INFO     Read coil state: None
+2025-12-06 20:38:03,742 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:03,743 INFO     Read coil state: None
+2025-12-06 20:38:04,744 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:04,744 INFO     Read coil state: None
+2025-12-06 20:38:05,745 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:05,745 INFO     Read coil state: None
+2025-12-06 20:38:06,747 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:06,747 INFO     Read coil state: None
+2025-12-06 20:38:07,750 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:07,750 INFO     Read coil state: None
+2025-12-06 20:38:08,751 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:08,751 INFO     Read coil state: None
+2025-12-06 20:38:09,753 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:09,754 INFO     Read coil state: None
+2025-12-06 20:38:10,755 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:10,755 INFO     Read coil state: None
+2025-12-06 20:38:11,757 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:11,758 INFO     Read coil state: None
+2025-12-06 20:38:12,759 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:12,759 INFO     Read coil state: None
+2025-12-06 20:38:13,761 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:13,762 INFO     Read coil state: None
+2025-12-06 20:38:14,764 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:14,765 INFO     Read coil state: None
+2025-12-06 20:38:15,766 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:15,766 INFO     Read coil state: None
+2025-12-06 20:38:16,767 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:16,767 INFO     Read coil state: None
+2025-12-06 20:38:17,768 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:17,768 INFO     Read coil state: None
+2025-12-06 20:38:18,769 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:18,769 INFO     Read coil state: None
+2025-12-06 20:38:19,770 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:19,770 INFO     Read coil state: None
+2025-12-06 20:38:20,771 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:20,771 INFO     Read coil state: None
+2025-12-06 20:38:21,772 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:21,772 INFO     Read coil state: None
+2025-12-06 20:38:22,773 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:22,773 INFO     Read coil state: None
+2025-12-06 20:38:23,776 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:23,777 INFO     Read coil state: None
+2025-12-06 20:38:24,777 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:24,778 INFO     Read coil state: None
+2025-12-06 20:38:25,779 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:25,779 INFO     Read coil state: None
+2025-12-06 20:38:26,782 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:26,782 INFO     Read coil state: None
+2025-12-06 20:38:27,783 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:27,783 INFO     Read coil state: None
+2025-12-06 20:38:28,785 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:28,785 INFO     Read coil state: None
+2025-12-06 20:38:29,788 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:29,788 INFO     Read coil state: None
+2025-12-06 20:38:30,791 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:30,791 INFO     Read coil state: None
+2025-12-06 20:38:31,793 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:31,794 INFO     Read coil state: None
+2025-12-06 20:38:32,796 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:32,797 INFO     Read coil state: None
+2025-12-06 20:38:33,798 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:33,800 INFO     Read coil state: None
+2025-12-06 20:38:34,802 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:34,802 INFO     Read coil state: None
+2025-12-06 20:38:35,804 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:35,806 INFO     Read coil state: None
+2025-12-06 20:38:36,807 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:36,807 INFO     Read coil state: None
+2025-12-06 20:38:37,810 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:37,810 INFO     Read coil state: None
+2025-12-06 20:38:38,813 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:38,814 INFO     Read coil state: None
+2025-12-06 20:38:39,816 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:39,817 INFO     Read coil state: None
+2025-12-06 20:38:40,818 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:40,818 INFO     Read coil state: None
+2025-12-06 20:38:41,819 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:41,819 INFO     Read coil state: None
+2025-12-06 20:38:42,821 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:42,821 INFO     Read coil state: None
+2025-12-06 20:38:43,823 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:43,823 INFO     Read coil state: None
+2025-12-06 20:38:44,825 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:44,825 INFO     Read coil state: None
+2025-12-06 20:38:45,827 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:45,828 INFO     Read coil state: None
+2025-12-06 20:38:46,830 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:46,830 INFO     Read coil state: None
+2025-12-06 20:38:47,834 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:47,834 INFO     Read coil state: None
+2025-12-06 20:38:48,836 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:48,836 INFO     Read coil state: None
+2025-12-06 20:38:49,838 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:49,838 INFO     Read coil state: None
+2025-12-06 20:38:50,839 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:50,840 INFO     Read coil state: None
+2025-12-06 20:38:51,842 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:51,842 INFO     Read coil state: None
+2025-12-06 20:38:52,844 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:52,845 INFO     Read coil state: None
+2025-12-06 20:38:53,847 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:53,847 INFO     Read coil state: None
+2025-12-06 20:38:54,848 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:54,848 INFO     Read coil state: None
+2025-12-06 20:38:55,850 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:55,850 INFO     Read coil state: None
+2025-12-06 20:38:56,851 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:56,851 INFO     Read coil state: None
+2025-12-06 20:38:57,852 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:57,853 INFO     Read coil state: None
+2025-12-06 20:38:58,853 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:58,853 INFO     Read coil state: None
+2025-12-06 20:38:59,854 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:38:59,855 INFO     Read coil state: None
+2025-12-06 20:39:00,856 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:00,856 INFO     Read coil state: None
+2025-12-06 20:39:01,858 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:01,858 INFO     Read coil state: None
+2025-12-06 20:39:02,860 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:02,860 INFO     Read coil state: None
+2025-12-06 20:39:03,863 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:03,863 INFO     Read coil state: None
+2025-12-06 20:39:04,865 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:04,865 INFO     Read coil state: None
+2025-12-06 20:39:05,866 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:05,868 INFO     Read coil state: None
+2025-12-06 20:39:06,869 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:06,869 INFO     Read coil state: None
+2025-12-06 20:39:07,872 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:07,873 INFO     Read coil state: None
+2025-12-06 20:39:08,875 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:08,876 INFO     Read coil state: None
+2025-12-06 20:39:09,878 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:09,878 INFO     Read coil state: None
+2025-12-06 20:39:10,880 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:10,880 INFO     Read coil state: None
+2025-12-06 20:39:11,882 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:11,882 INFO     Read coil state: None
+2025-12-06 20:39:12,884 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:12,884 INFO     Read coil state: None
+2025-12-06 20:39:13,887 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:13,888 INFO     Read coil state: None
+2025-12-06 20:39:14,890 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:14,890 INFO     Read coil state: None
+2025-12-06 20:39:15,892 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:15,892 INFO     Read coil state: None
+2025-12-06 20:39:16,893 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:16,893 INFO     Read coil state: None
+2025-12-06 20:39:17,895 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:17,897 INFO     Read coil state: None
+2025-12-06 20:39:18,898 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:18,898 INFO     Read coil state: None
+2025-12-06 20:39:19,900 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:19,900 INFO     Read coil state: None
+2025-12-06 20:39:20,902 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:20,902 INFO     Read coil state: None
+2025-12-06 20:39:21,905 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:21,905 INFO     Read coil state: None
+2025-12-06 20:39:22,908 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:22,908 INFO     Read coil state: None
+2025-12-06 20:39:23,910 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:23,911 INFO     Read coil state: None
+2025-12-06 20:39:24,913 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:24,913 INFO     Read coil state: None
+2025-12-06 20:39:25,914 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:25,914 INFO     Read coil state: None
+2025-12-06 20:39:26,918 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:26,918 INFO     Read coil state: None
+2025-12-06 20:39:27,920 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:27,921 INFO     Read coil state: None
+2025-12-06 20:39:28,922 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:28,924 INFO     Read coil state: None
+2025-12-06 20:39:29,925 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:29,925 INFO     Read coil state: None
+2025-12-06 20:39:30,928 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:30,928 INFO     Read coil state: None
+2025-12-06 20:39:31,930 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:31,931 INFO     Read coil state: None
+2025-12-06 20:39:32,932 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:32,932 INFO     Read coil state: None
+2025-12-06 20:39:33,934 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:33,935 INFO     Read coil state: None
+2025-12-06 20:39:34,936 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:34,936 INFO     Read coil state: None
+2025-12-06 20:39:35,937 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:35,938 INFO     Read coil state: None
+2025-12-06 20:39:36,939 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:36,939 INFO     Read coil state: None
+2025-12-06 20:39:37,941 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:37,941 INFO     Read coil state: None
+2025-12-06 20:39:38,942 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:38,943 INFO     Read coil state: None
+2025-12-06 20:39:39,944 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:39,945 INFO     Read coil state: None
+2025-12-06 20:39:40,947 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:40,947 INFO     Read coil state: None
+2025-12-06 20:39:41,949 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:41,949 INFO     Read coil state: None
+2025-12-06 20:39:42,952 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:42,953 INFO     Read coil state: None
+2025-12-06 20:39:43,954 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:43,954 INFO     Read coil state: None
+2025-12-06 20:39:44,957 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:44,958 INFO     Read coil state: None
+2025-12-06 20:39:45,960 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:45,961 INFO     Read coil state: None
+2025-12-06 20:39:46,962 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:46,962 INFO     Read coil state: None
+2025-12-06 20:39:47,965 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:47,966 INFO     Read coil state: None
+2025-12-06 20:39:48,968 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:48,968 INFO     Read coil state: None
+2025-12-06 20:39:49,970 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:49,970 INFO     Read coil state: None
+2025-12-06 20:39:50,972 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:50,973 INFO     Read coil state: None
+2025-12-06 20:39:51,975 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:51,976 INFO     Read coil state: None
+2025-12-06 20:39:52,978 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:52,978 INFO     Read coil state: None
+2025-12-06 20:39:53,979 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:53,979 INFO     Read coil state: None
+2025-12-06 20:39:54,981 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:54,981 INFO     Read coil state: None
+2025-12-06 20:39:55,982 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:55,983 INFO     Read coil state: None
+2025-12-06 20:39:56,985 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:56,986 INFO     Read coil state: None
+2025-12-06 20:39:57,987 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:57,987 INFO     Read coil state: None
+2025-12-06 20:39:58,988 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:58,988 INFO     Read coil state: None
+2025-12-06 20:39:59,989 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:39:59,989 INFO     Read coil state: None
+2025-12-06 20:40:00,992 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:00,992 INFO     Read coil state: None
+2025-12-06 20:40:01,993 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:01,994 INFO     Read coil state: None
+2025-12-06 20:40:02,995 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:02,995 INFO     Read coil state: None
+2025-12-06 20:40:03,997 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:03,997 INFO     Read coil state: None
+2025-12-06 20:40:04,999 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:04,999 INFO     Read coil state: None
+2025-12-06 20:40:06,000 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:06,000 INFO     Read coil state: None
+2025-12-06 20:40:07,001 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:07,001 INFO     Read coil state: None
+2025-12-06 20:40:08,002 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:08,003 INFO     Read coil state: None
+2025-12-06 20:40:09,003 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:09,003 INFO     Read coil state: None
+2025-12-06 20:40:10,004 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:10,004 INFO     Read coil state: None
+2025-12-06 20:40:11,005 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:11,005 INFO     Read coil state: None
+2025-12-06 20:40:12,006 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:12,008 INFO     Read coil state: None
+2025-12-06 20:40:13,009 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:13,009 INFO     Read coil state: None
+2025-12-06 20:40:14,010 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:14,010 INFO     Read coil state: None
+2025-12-06 20:40:15,011 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:15,011 INFO     Read coil state: None
+2025-12-06 20:40:16,014 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:16,015 INFO     Read coil state: None
+2025-12-06 20:40:17,016 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:17,017 INFO     Read coil state: None
+2025-12-06 20:40:18,019 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:18,020 INFO     Read coil state: None
+2025-12-06 20:40:19,020 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:19,020 INFO     Read coil state: None
+2025-12-06 20:40:20,021 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:20,021 INFO     Read coil state: None
+2025-12-06 20:40:21,022 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:21,022 INFO     Read coil state: None
+2025-12-06 20:40:22,023 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:22,023 INFO     Read coil state: None
+2025-12-06 20:40:23,024 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:23,024 INFO     Read coil state: None
+2025-12-06 20:40:24,027 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:24,027 INFO     Read coil state: None
+2025-12-06 20:40:25,028 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:25,028 INFO     Read coil state: None
+2025-12-06 20:40:26,029 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:26,030 INFO     Read coil state: None
+2025-12-06 20:40:27,031 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:27,031 INFO     Read coil state: None
+2025-12-06 20:40:28,033 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:28,033 INFO     Read coil state: None
+2025-12-06 20:40:29,034 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:29,035 INFO     Read coil state: None
+2025-12-06 20:40:30,036 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:30,037 INFO     Read coil state: None
+2025-12-06 20:40:31,038 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:31,038 INFO     Read coil state: None
+2025-12-06 20:40:32,040 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:32,040 INFO     Read coil state: None
+2025-12-06 20:40:33,041 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:33,041 INFO     Read coil state: None
+2025-12-06 20:40:34,042 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:34,043 INFO     Read coil state: None
+2025-12-06 20:40:35,044 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:35,044 INFO     Read coil state: None
+2025-12-06 20:40:36,045 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:36,045 INFO     Read coil state: None
+2025-12-06 20:40:37,046 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:37,046 INFO     Read coil state: None
+2025-12-06 20:40:38,047 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:38,048 INFO     Read coil state: None
+2025-12-06 20:40:39,050 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:39,050 INFO     Read coil state: None
+2025-12-06 20:40:40,051 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:40,051 INFO     Read coil state: None
+2025-12-06 20:40:41,052 INFO     Try connect to the PLC: S7commPLC02
+2025-12-06 20:40:41,052 INFO     Read coil state: None

@@ -1,0 +1,139 @@
+{% extends 'mgmbase.html' %}
+
+{% block title %} PLC Emulators View Page{% endblock %}
+
+{% block style%} <style></style> {% endblock %}
+
+{% block script %}
+
+{% endblock %}
+
+{% block mgmContent %}
+
+<ul class="list-group">
+    <li class="list-group-item">
+        <h3> PLC Hardware Simulator State View </h3>
+    </li>
+</ul>
+
+<div class="row">
+    <div class="col-sm-9">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h5>PLC Hardware Simulator State Table </h5>
+            </li>
+            <li class="list-group-item">
+                <table class="table table-striped table-bordered table-sm">
+                    <thead class="table-dark">
+                        <tr class="table-secondary">
+                            <th>PLC ID</th>
+                            <th>IP_address</th>
+                            <th>TCP Port</th>
+							<th>HTTP Port</th>
+                            <th>OT_Protocol</th>
+                            <th>Last Update Time</th>
+                            <th>Report Time</th>
+                            <th>Alert Count</th>
+                            <th>Total Report</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for plcinfo in posts['plcinfo'] %}
+                        <tr>
+                            <td> 
+                                <a href="{{ url_for('plcpeerstate', postID=plcinfo['id'])}}" target="_blank">
+                                    {{plcinfo['id']}}
+                                </a> 
+                            </td>
+
+                            <td> {{plcinfo['ip']}}</td>
+                            <td>
+                                {% if plcinfo['protocol'] == 'Modbus' %}
+                                    502
+                                {% else %}
+                                    102
+                                {% endif%}
+                            </td>
+							<td>
+                                {% if plcinfo['protocol'] == 'Modbus' %}
+                                    5001
+                                {% else %}
+                                    5002
+                                {% endif%}
+                            </td>
+                            <td>
+                                {% if plcinfo['protocol'] == 'Modbus' %}
+                                    <span class="badge bg-success">{{plcinfo['protocol']}}</span>
+                                {% else %}
+                                    <span class="badge bg-primary">{{plcinfo['protocol']}}</span>
+                                {% endif%}
+                            </td>
+                            <td> {{plcinfo['lastUpdateT']}}</td>
+                            <td> {{plcinfo['reportT']}} mins</td>
+                            <td>
+                                {% if plcinfo['exceptCount'] == 0 %}
+                                    <span class="badge bg-success">{{plcinfo['exceptCount']}}</span>
+                                {% else %}
+                                    <span class="badge bg-danger">{{plcinfo['exceptCount']}}</span>
+                                {% endif%}
+                            </td>
+                            <td> {{plcinfo['totalRptCount']}}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </li>
+        </ul>
+    </div>
+
+    <div class="col-sm-3">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h5> Table Information Detail</h5>
+            </li>
+            <li class="list-group-item">
+                <p>
+                    <span class="badge bg-secondary">PLC ID</span> :
+                    PLC Emulator Unique ID, Click the ID to go to the PLC Detail Page.
+                </p>
+                <p>
+                    <span class="badge bg-secondary">IP_address</span> :
+                    PLC Emulator's Program VM IP address.
+                </p>
+                <p>
+                    <span class="badge bg-secondary">OT Protocol</span> :
+                    OT Protocol used by the Controller to communicate with the PLC.
+                </p>
+
+                <p>
+                    <span class="badge bg-secondary">Ladder ID</span> :
+                    Ladder ID of the PLC Emulator.
+                </p>
+
+                <p>
+                    <span class="badge bg-secondary">Last Update T</span> :
+                    Time stamp of the PLC Emulator last time update to the monitor hub.
+                </p>
+
+                <p>
+                    <span class="badge bg-secondary">Report Time</span> :
+                    Time interval of the PLC Emulator reporting to the monitor hub.
+                </p>
+
+                <p>
+                    <span class="badge bg-secondary">Exception Count</span> :
+                    Number of exceptions the PLC Emulator has reported to Monitor Hub.
+                </p>
+
+                <p>
+                    <span class="badge bg-secondary">Total Report</span> :
+                    Total Number of state the PLC Emulator has report to Monitor Hub.
+                </p>
+
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+{% endblock %}

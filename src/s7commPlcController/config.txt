@@ -1,0 +1,31 @@
+# This is the config file template for the  the PLC honeypot project's Modbus PLC 
+# controller program <mbPlcControllerApp.py>
+# Setup the parameter with below format (every line follows <key>:<val> format, the
+# key can not be changed):
+
+#-----------------------------------------------------------------------------
+OWN_ID:S7Control01
+OWN_IP:192.168.8.34
+
+# The OT protocol type string, "Modbus" or "S7Comm".
+PRO_TYPE:S7Comm
+
+# The ladder logic file id used by this PLC controller.
+LADDER_ID:s7LadderLogic.py
+
+#-----------------------------------------------------------------------------
+# The PLC ID and IP address, the ID must be same as the 
+PLC_ID:S7PLC01
+PLC_IP:192.168.8.34
+PLC_PORT:102
+
+# PLC data fetch time interval (sec)
+PLC_CINT:10
+
+#-----------------------------------------------------------------------------
+# define the monitor hub parameters : 
+MON_IP:127.0.0.1
+MON_PORT:5000
+
+# Time interval to report to the monitor hub in seconds:
+RPT_INTERVAL:5

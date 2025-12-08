@@ -1,0 +1,33 @@
+# This is the config file template for the module <logArchiveServer.py>
+# Setup the parameter with below format (every line follows <key>:<val> format, the
+# key can not be changed):
+
+#-----------------------------------------------------------------------------
+# Web test mode flag: True start without init the FTP server
+TEST_MODE:False
+
+#-----------------------------------------------------------------------------
+# Init the FTP server parameter
+FTP_SER_PORT:8081
+# default max speed for client download: 300 Kb/sec (300 * 1024)
+MAX_UPLOAD_SPEED:307200
+# default max speed for client upload:  300 Kb/sec (300 * 1024)
+MAX_DOWNLOAD_SPEED:307200
+
+#
+LOG_FOLDER_CP:1000
+
+#-----------------------------------------------------------------------------
+# User record json file, need to put in same folder with the logArchiveServer.py
+USER_RCD:userRecord.json
+
+#-----------------------------------------------------------------------------
+# FTP storage root folder 
+LOG_DIR:ServerLogSorage
+LOG_PF:.txt
+
+#-----------------------------------------------------------------------------
+# Init the Flask app parameters
+FLASK_SER_PORT:5004
+FLASK_DEBUG_MD:False
+FLASK_MULTI_TH:True

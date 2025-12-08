@@ -1,0 +1,477 @@
+2025-12-07 10:57:10,589 INFO     PLC connection established
+2025-12-07 10:57:10,590 INFO     PLC controller verification loop started
+2025-12-07 10:57:10,590 INFO     Start one around verification.
+2025-12-07 10:57:20,604 INFO     Random generated input: [1, 1, 0, 0, 0, 1, 1, 1]
+2025-12-07 10:57:20,604 INFO     Expected output: [True, False, False, True, False, False, False, True]
+2025-12-07 10:57:22,491 INFO     Get PLC result: [True, False, False, True, False, False, False, True]
+2025-12-07 10:57:22,492 INFO     Start one around verification.
+2025-12-07 10:57:32,502 INFO     Random generated input: [1, 1, 0, 1, 1, 1, 0, 0]
+2025-12-07 10:57:32,504 INFO     Expected output: [False, False, False, False, False, False, True, True]
+2025-12-07 10:57:34,393 INFO     Get PLC result: [False, False, False, False, False, False, True, True]
+2025-12-07 10:57:34,394 INFO     Start one around verification.
+2025-12-07 10:57:44,409 INFO     Random generated input: [1, 0, 0, 1, 0, 0, 1, 0]
+2025-12-07 10:57:44,409 INFO     Expected output: [False, True, False, True, True, False, True, False]
+2025-12-07 10:57:46,292 INFO     Get PLC result: [False, True, False, True, True, False, True, False]
+2025-12-07 10:57:46,293 INFO     Start one around verification.
+2025-12-07 10:57:56,302 INFO     Random generated input: [0, 1, 0, 0, 0, 1, 0, 1]
+2025-12-07 10:57:56,302 INFO     Expected output: [False, False, False, True, False, False, False, True]
+2025-12-07 10:57:58,192 INFO     Get PLC result: [False, False, False, True, False, False, False, True]
+2025-12-07 10:57:58,192 INFO     Start one around verification.
+2025-12-07 10:58:08,204 INFO     Random generated input: [1, 0, 1, 0, 1, 1, 1, 0]
+2025-12-07 10:58:08,204 INFO     Expected output: [False, True, False, True, False, False, True, True]
+2025-12-07 10:58:10,108 INFO     Get PLC result: [False, True, False, True, False, False, True, True]
+2025-12-07 10:58:10,109 INFO     Start one around verification.
+2025-12-07 10:58:20,111 INFO     Random generated input: [0, 0, 0, 0, 1, 0, 0, 1]
+2025-12-07 10:58:20,111 INFO     Expected output: [False, True, False, True, False, False, False, False]
+2025-12-07 10:58:22,011 INFO     Get PLC result: [False, True, False, True, False, False, False, False]
+2025-12-07 10:58:22,012 INFO     Start one around verification.
+2025-12-07 10:58:32,014 INFO     Random generated input: [0, 0, 1, 1, 0, 1, 1, 0]
+2025-12-07 10:58:32,014 INFO     Expected output: [False, True, False, True, False, True, True, True]
+2025-12-07 10:58:33,920 INFO     Get PLC result: [False, True, False, True, False, True, True, True]
+2025-12-07 10:58:33,921 INFO     Start one around verification.
+2025-12-07 10:58:43,927 INFO     Random generated input: [1, 1, 1, 0, 1, 0, 1, 0]
+2025-12-07 10:58:43,927 INFO     Expected output: [False, False, False, True, False, False, True, False]
+2025-12-07 10:58:45,815 INFO     Get PLC result: [False, False, False, True, False, False, True, False]
+2025-12-07 10:58:45,815 INFO     Start one around verification.
+2025-12-07 10:58:55,827 INFO     Random generated input: [0, 0, 1, 0, 1, 0, 0, 0]
+2025-12-07 10:58:55,827 INFO     Expected output: [False, True, False, True, False, False, True, False]
+2025-12-07 10:58:57,724 INFO     Get PLC result: [False, True, False, True, False, False, True, False]
+2025-12-07 10:58:57,725 INFO     Start one around verification.
+2025-12-07 10:59:07,727 INFO     Random generated input: [1, 1, 1, 1, 0, 0, 1, 0]
+2025-12-07 10:59:07,727 INFO     Expected output: [False, False, False, True, True, False, True, False]
+2025-12-07 10:59:09,627 INFO     Get PLC result: [False, False, False, True, True, False, True, False]
+2025-12-07 10:59:09,627 INFO     Start one around verification.
+2025-12-07 10:59:19,631 INFO     Random generated input: [1, 0, 1, 1, 1, 0, 0, 0]
+2025-12-07 10:59:19,631 INFO     Expected output: [False, True, True, False, False, False, True, False]
+2025-12-07 10:59:21,530 INFO     Get PLC result: [False, True, True, False, False, False, True, False]
+2025-12-07 10:59:21,530 INFO     Start one around verification.
+2025-12-07 10:59:31,540 INFO     Random generated input: [1, 0, 0, 1, 1, 0, 1, 0]
+2025-12-07 10:59:31,540 INFO     Expected output: [False, True, False, True, False, False, True, False]
+2025-12-07 10:59:33,442 INFO     Get PLC result: [False, True, False, True, False, False, True, False]
+2025-12-07 10:59:33,443 INFO     Start one around verification.
+2025-12-07 10:59:43,456 INFO     Random generated input: [0, 1, 1, 0, 0, 1, 0, 0]
+2025-12-07 10:59:43,456 INFO     Expected output: [False, False, False, True, False, False, True, True]
+2025-12-07 10:59:45,346 INFO     Get PLC result: [False, False, False, True, False, False, True, True]
+2025-12-07 10:59:45,347 INFO     Start one around verification.
+2025-12-07 10:59:55,352 INFO     Random generated input: [0, 1, 1, 1, 0, 1, 0, 1]
+2025-12-07 10:59:55,352 INFO     Expected output: [False, False, False, True, False, False, True, True]
+2025-12-07 10:59:57,246 INFO     Get PLC result: [False, False, False, True, False, False, True, True]
+2025-12-07 10:59:57,247 INFO     Start one around verification.
+2025-12-07 11:00:07,247 INFO     Random generated input: [0, 0, 1, 1, 1, 0, 0, 0]
+2025-12-07 11:00:07,247 INFO     Expected output: [False, True, True, True, False, False, True, False]
+2025-12-07 11:00:09,131 INFO     Get PLC result: [False, True, True, True, False, False, True, False]
+2025-12-07 11:00:09,132 INFO     Start one around verification.
+2025-12-07 11:00:19,144 INFO     Random generated input: [1, 0, 1, 1, 1, 1, 1, 0]
+2025-12-07 11:00:19,144 INFO     Expected output: [False, True, True, True, False, False, True, True]
+2025-12-07 11:00:21,035 INFO     Get PLC result: [False, True, True, True, False, False, True, True]
+2025-12-07 11:00:21,036 INFO     Start one around verification.
+2025-12-07 11:00:31,047 INFO     Random generated input: [1, 1, 0, 1, 0, 1, 1, 0]
+2025-12-07 11:00:31,047 INFO     Expected output: [False, False, False, True, False, False, True, True]
+2025-12-07 11:00:32,936 INFO     Get PLC result: [False, False, False, True, False, False, True, True]
+2025-12-07 11:00:32,937 INFO     Start one around verification.
+2025-12-07 11:00:42,945 INFO     Random generated input: [1, 1, 1, 0, 1, 1, 0, 0]
+2025-12-07 11:00:42,945 INFO     Expected output: [False, False, False, False, False, False, True, True]
+2025-12-07 11:00:44,831 INFO     Get PLC result: [False, False, False, False, False, False, True, True]
+2025-12-07 11:00:44,832 INFO     Start one around verification.
+2025-12-07 11:00:54,845 INFO     Random generated input: [0, 1, 0, 0, 0, 1, 0, 0]
+2025-12-07 11:00:54,845 INFO     Expected output: [False, False, False, True, False, False, True, True]
+2025-12-07 11:00:56,741 INFO     Get PLC result: [False, False, False, True, False, False, True, True]
+2025-12-07 11:00:56,742 INFO     Start one around verification.
+2025-12-07 11:01:06,753 INFO     Random generated input: [1, 0, 0, 0, 0, 1, 1, 0]
+2025-12-07 11:01:06,753 INFO     Expected output: [False, True, False, True, False, False, True, True]
+2025-12-07 11:01:08,656 INFO     Get PLC result: [False, True, False, True, False, False, True, True]
+2025-12-07 11:01:08,657 INFO     Start one around verification.
+2025-12-07 11:01:18,659 INFO     Random generated input: [0, 1, 1, 1, 1, 1, 1, 0]
+2025-12-07 11:01:18,659 INFO     Expected output: [False, False, True, True, False, True, True, True]
+2025-12-07 11:01:20,562 INFO     Get PLC result: [False, False, True, True, False, True, True, True]
+2025-12-07 11:01:20,563 INFO     Start one around verification.
+2025-12-07 11:01:30,571 INFO     Random generated input: [0, 0, 1, 1, 1, 0, 0, 1]
+2025-12-07 11:01:30,571 INFO     Expected output: [False, True, True, True, False, False, True, False]
+2025-12-07 11:01:32,463 INFO     Get PLC result: [False, True, True, True, False, False, True, False]
+2025-12-07 11:01:32,464 INFO     Start one around verification.
+2025-12-07 11:01:42,475 INFO     Random generated input: [1, 0, 1, 0, 1, 0, 0, 0]
+2025-12-07 11:01:42,475 INFO     Expected output: [False, True, False, False, False, False, True, False]
+2025-12-07 11:01:44,376 INFO     Get PLC result: [False, True, False, False, False, False, True, False]
+2025-12-07 11:01:44,377 INFO     Start one around verification.
+2025-12-07 11:01:54,390 INFO     Random generated input: [1, 0, 1, 1, 0, 1, 1, 1]
+2025-12-07 11:01:54,390 INFO     Expected output: [True, True, False, True, False, False, True, True]
+2025-12-07 11:01:56,290 INFO     Get PLC result: [True, True, False, True, False, False, True, True]
+2025-12-07 11:01:56,291 INFO     Start one around verification.
+2025-12-07 11:02:06,294 INFO     Random generated input: [1, 1, 0, 0, 1, 1, 1, 0]
+2025-12-07 11:02:06,294 INFO     Expected output: [False, False, False, True, False, False, True, True]
+2025-12-07 11:02:08,188 INFO     Get PLC result: [False, False, False, True, False, False, True, True]
+2025-12-07 11:02:08,189 INFO     Start one around verification.
+2025-12-07 11:02:18,197 INFO     Random generated input: [0, 1, 0, 0, 1, 1, 1, 1]
+2025-12-07 11:02:18,197 INFO     Expected output: [False, False, False, True, False, True, False, True]
+2025-12-07 11:02:20,084 INFO     Get PLC result: [False, False, False, True, False, True, False, True]
+2025-12-07 11:02:20,085 INFO     Start one around verification.
+2025-12-07 11:02:30,090 INFO     Random generated input: [0, 0, 0, 0, 0, 0, 0, 0]
+2025-12-07 11:02:30,090 INFO     Expected output: [False, True, False, True, True, False, True, False]
+2025-12-07 11:02:31,993 INFO     Get PLC result: [False, True, False, True, True, False, True, False]
+2025-12-07 11:02:31,993 INFO     Start one around verification.
+2025-12-07 11:02:42,002 INFO     Random generated input: [0, 1, 1, 0, 1, 1, 1, 1]
+2025-12-07 11:02:42,002 INFO     Expected output: [False, False, False, True, False, True, False, True]
+2025-12-07 11:02:43,897 INFO     Get PLC result: [False, False, False, True, False, True, False, True]
+2025-12-07 11:02:43,898 INFO     Start one around verification.
+2025-12-07 11:02:53,899 INFO     Random generated input: [0, 1, 0, 1, 1, 0, 0, 1]
+2025-12-07 11:02:53,899 INFO     Expected output: [False, False, False, True, False, False, True, False]
+2025-12-07 11:02:55,797 INFO     Get PLC result: [False, False, False, True, False, False, True, False]
+2025-12-07 11:02:55,798 INFO     Start one around verification.
+2025-12-07 11:03:05,814 INFO     Random generated input: [0, 0, 0, 0, 1, 1, 0, 0]
+2025-12-07 11:03:05,814 INFO     Expected output: [False, True, False, True, False, False, True, True]
+2025-12-07 11:03:07,708 INFO     Get PLC result: [False, True, False, True, False, False, True, True]
+2025-12-07 11:03:07,709 INFO     Start one around verification.
+2025-12-07 11:03:17,722 INFO     Random generated input: [0, 1, 0, 1, 1, 0, 0, 1]
+2025-12-07 11:03:17,722 INFO     Expected output: [False, False, False, True, False, False, True, False]
+2025-12-07 11:03:19,614 INFO     Get PLC result: [False, False, False, True, False, False, True, False]
+2025-12-07 11:03:19,615 INFO     Start one around verification.
+2025-12-07 11:03:29,620 INFO     Random generated input: [1, 0, 1, 0, 1, 0, 0, 1]
+2025-12-07 11:03:29,620 INFO     Expected output: [True, True, False, False, False, False, False, False]
+2025-12-07 11:03:31,511 INFO     Get PLC result: [True, True, False, False, False, False, False, False]
+2025-12-07 11:03:31,512 INFO     Start one around verification.
+2025-12-07 11:03:41,514 INFO     Random generated input: [1, 1, 1, 1, 1, 0, 0, 0]
+2025-12-07 11:03:41,514 INFO     Expected output: [False, False, True, False, False, False, True, False]
+2025-12-07 11:03:43,410 INFO     Get PLC result: [False, False, True, False, False, False, True, False]
+2025-12-07 11:03:43,411 INFO     Start one around verification.
+2025-12-07 11:03:53,426 INFO     Random generated input: [1, 1, 1, 1, 0, 1, 0, 1]
+2025-12-07 11:03:53,426 INFO     Expected output: [True, False, False, False, False, False, True, True]
+2025-12-07 11:03:55,330 INFO     Get PLC result: [True, False, False, False, False, False, True, True]
+2025-12-07 11:03:55,331 INFO     Start one around verification.
+2025-12-07 11:04:05,335 INFO     Random generated input: [1, 1, 0, 0, 1, 0, 1, 0]
+2025-12-07 11:04:05,335 INFO     Expected output: [False, False, False, True, False, False, True, False]
+2025-12-07 11:04:07,229 INFO     Get PLC result: [False, False, False, True, False, False, True, False]
+2025-12-07 11:04:07,230 INFO     Start one around verification.
+2025-12-07 11:04:17,233 INFO     Random generated input: [0, 1, 1, 1, 0, 0, 1, 1]
+2025-12-07 11:04:17,233 INFO     Expected output: [False, False, False, True, True, True, True, False]
+2025-12-07 11:04:19,135 INFO     Get PLC result: [False, False, False, True, True, True, True, False]
+2025-12-07 11:04:19,136 INFO     Start one around verification.
+2025-12-07 11:04:29,149 INFO     Random generated input: [1, 0, 0, 1, 0, 0, 1, 1]
+2025-12-07 11:04:29,149 INFO     Expected output: [True, True, False, True, True, False, True, False]
+2025-12-07 11:04:31,038 INFO     Get PLC result: [True, True, False, True, True, False, True, False]
+2025-12-07 11:04:31,039 INFO     Start one around verification.
+2025-12-07 11:04:41,046 INFO     Random generated input: [0, 1, 1, 0, 0, 1, 0, 0]
+2025-12-07 11:04:41,046 INFO     Expected output: [False, False, False, True, False, False, True, True]
+2025-12-07 11:04:42,933 INFO     Get PLC result: [False, False, False, True, False, False, True, True]
+2025-12-07 11:04:42,934 INFO     Start one around verification.
+2025-12-07 11:04:52,946 INFO     Random generated input: [1, 0, 1, 0, 0, 0, 0, 1]
+2025-12-07 11:04:52,946 INFO     Expected output: [True, True, False, False, True, False, False, False]
+2025-12-07 11:04:54,842 INFO     Get PLC result: [True, True, False, False, True, False, False, False]
+2025-12-07 11:04:54,843 INFO     Start one around verification.
+2025-12-07 11:05:04,847 INFO     Random generated input: [0, 0, 1, 0, 1, 1, 0, 1]
+2025-12-07 11:05:04,847 INFO     Expected output: [False, True, False, True, False, False, False, True]
+2025-12-07 11:05:06,749 INFO     Get PLC result: [False, True, False, True, False, False, False, True]
+2025-12-07 11:05:06,749 INFO     Start one around verification.
+2025-12-07 11:05:16,750 INFO     Random generated input: [0, 0, 0, 1, 1, 1, 0, 0]
+2025-12-07 11:05:16,750 INFO     Expected output: [False, True, False, True, False, False, True, True]
+2025-12-07 11:05:18,655 INFO     Get PLC result: [False, True, False, True, False, False, True, True]
+2025-12-07 11:05:18,656 INFO     Start one around verification.
+2025-12-07 11:05:28,667 INFO     Random generated input: [1, 1, 1, 1, 1, 1, 1, 1]
+2025-12-07 11:05:28,667 INFO     Expected output: [True, False, True, True, False, False, True, True]
+2025-12-07 11:05:30,562 INFO     Get PLC result: [True, False, True, True, False, False, True, True]
+2025-12-07 11:05:30,563 INFO     Start one around verification.
+2025-12-07 11:05:40,565 INFO     Random generated input: [1, 0, 1, 1, 0, 0, 0, 1]
+2025-12-07 11:05:40,565 INFO     Expected output: [True, True, False, False, True, False, True, False]
+2025-12-07 11:05:42,454 INFO     Get PLC result: [True, True, False, False, True, False, True, False]
+2025-12-07 11:05:42,455 INFO     Start one around verification.
+2025-12-07 11:05:52,459 INFO     Random generated input: [1, 0, 1, 1, 0, 0, 1, 1]
+2025-12-07 11:05:52,459 INFO     Expected output: [True, True, False, True, True, False, True, False]
+2025-12-07 11:05:54,363 INFO     Get PLC result: [True, True, False, True, True, False, True, False]
+2025-12-07 11:05:54,364 INFO     Start one around verification.
+2025-12-07 11:06:04,376 INFO     Random generated input: [1, 1, 0, 0, 1, 0, 1, 0]
+2025-12-07 11:06:04,376 INFO     Expected output: [False, False, False, True, False, False, True, False]
+2025-12-07 11:06:06,266 INFO     Get PLC result: [False, False, False, True, False, False, True, False]
+2025-12-07 11:06:06,267 INFO     Start one around verification.
+2025-12-07 11:06:16,279 INFO     Random generated input: [0, 0, 1, 0, 1, 1, 1, 1]
+2025-12-07 11:06:16,279 INFO     Expected output: [False, True, False, True, False, True, False, True]
+2025-12-07 11:06:18,179 INFO     Get PLC result: [False, True, False, True, False, True, False, True]
+2025-12-07 11:06:18,180 INFO     Start one around verification.
+2025-12-07 11:06:28,181 INFO     Random generated input: [1, 1, 0, 1, 1, 1, 1, 0]
+2025-12-07 11:06:28,181 INFO     Expected output: [False, False, False, True, False, False, True, True]
+2025-12-07 11:06:30,085 INFO     Get PLC result: [False, False, False, True, False, False, True, True]
+2025-12-07 11:06:30,086 INFO     Start one around verification.
+2025-12-07 11:06:40,095 INFO     Random generated input: [1, 1, 1, 0, 1, 0, 1, 0]
+2025-12-07 11:06:40,095 INFO     Expected output: [False, False, False, True, False, False, True, False]
+2025-12-07 11:06:41,993 INFO     Get PLC result: [False, False, False, True, False, False, True, False]
+2025-12-07 11:06:41,993 INFO     Start one around verification.
+2025-12-07 11:06:52,001 INFO     Random generated input: [0, 1, 0, 1, 1, 1, 0, 0]
+2025-12-07 11:06:52,001 INFO     Expected output: [False, False, False, True, False, False, True, True]
+2025-12-07 11:06:53,901 INFO     Get PLC result: [False, False, False, True, False, False, True, True]
+2025-12-07 11:06:53,902 INFO     Start one around verification.
+2025-12-07 11:07:03,905 INFO     Random generated input: [0, 0, 0, 1, 0, 0, 0, 0]
+2025-12-07 11:07:03,905 INFO     Expected output: [False, True, False, True, True, False, True, False]
+2025-12-07 11:07:05,809 INFO     Get PLC result: [False, True, False, True, True, False, True, False]
+2025-12-07 11:07:05,810 INFO     Start one around verification.
+2025-12-07 11:07:15,813 INFO     Random generated input: [1, 1, 1, 1, 0, 0, 0, 1]
+2025-12-07 11:07:15,813 INFO     Expected output: [True, False, False, False, True, False, True, False]
+2025-12-07 11:07:17,705 INFO     Get PLC result: [True, False, False, False, True, False, True, False]
+2025-12-07 11:07:17,706 INFO     Start one around verification.
+2025-12-07 11:07:27,708 INFO     Random generated input: [0, 0, 0, 0, 1, 1, 0, 1]
+2025-12-07 11:07:27,708 INFO     Expected output: [False, True, False, True, False, False, False, True]
+2025-12-07 11:07:29,606 INFO     Get PLC result: [False, True, False, True, False, False, False, True]
+2025-12-07 11:07:29,607 INFO     Start one around verification.
+2025-12-07 11:07:39,613 INFO     Random generated input: [1, 1, 1, 1, 0, 1, 0, 0]
+2025-12-07 11:07:39,613 INFO     Expected output: [False, False, False, False, False, False, True, True]
+2025-12-07 11:07:41,511 INFO     Get PLC result: [False, False, False, False, False, False, True, True]
+2025-12-07 11:07:41,512 INFO     Start one around verification.
+2025-12-07 11:07:51,523 INFO     Random generated input: [1, 0, 1, 1, 0, 1, 1, 1]
+2025-12-07 11:07:51,523 INFO     Expected output: [True, True, False, True, False, False, True, True]
+2025-12-07 11:07:53,425 INFO     Get PLC result: [True, True, False, True, False, False, True, True]
+2025-12-07 11:07:53,426 INFO     Start one around verification.
+2025-12-07 11:08:03,434 INFO     Random generated input: [1, 1, 1, 0, 1, 0, 1, 1]
+2025-12-07 11:08:03,434 INFO     Expected output: [True, False, False, True, False, False, False, False]
+2025-12-07 11:08:05,326 INFO     Get PLC result: [True, False, False, True, False, False, False, False]
+2025-12-07 11:08:05,327 INFO     Start one around verification.
+2025-12-07 11:08:15,334 INFO     Random generated input: [1, 0, 1, 1, 1, 0, 0, 0]
+2025-12-07 11:08:15,334 INFO     Expected output: [False, True, True, False, False, False, True, False]
+2025-12-07 11:08:17,234 INFO     Get PLC result: [False, True, True, False, False, False, True, False]
+2025-12-07 11:08:17,235 INFO     Start one around verification.
+2025-12-07 11:08:27,236 INFO     Random generated input: [0, 0, 1, 1, 0, 0, 1, 0]
+2025-12-07 11:08:27,236 INFO     Expected output: [False, True, False, True, True, True, True, False]
+2025-12-07 11:08:29,127 INFO     Get PLC result: [False, True, False, True, True, True, True, False]
+2025-12-07 11:08:29,128 INFO     Start one around verification.
+2025-12-07 11:08:39,139 INFO     Random generated input: [1, 1, 0, 0, 1, 1, 0, 0]
+2025-12-07 11:08:39,139 INFO     Expected output: [False, False, False, False, False, False, True, True]
+2025-12-07 11:08:41,045 INFO     Get PLC result: [False, False, False, False, False, False, True, True]
+2025-12-07 11:08:41,046 INFO     Start one around verification.
+2025-12-07 11:08:51,054 INFO     Random generated input: [0, 1, 0, 1, 0, 1, 1, 0]
+2025-12-07 11:08:51,054 INFO     Expected output: [False, False, False, True, False, True, True, True]
+2025-12-07 11:08:52,950 INFO     Get PLC result: [False, False, False, True, False, True, True, True]
+2025-12-07 11:08:52,951 INFO     Start one around verification.
+2025-12-07 11:09:02,963 INFO     Random generated input: [1, 0, 1, 1, 0, 0, 1, 1]
+2025-12-07 11:09:02,963 INFO     Expected output: [True, True, False, True, True, False, True, False]
+2025-12-07 11:09:04,864 INFO     Get PLC result: [True, True, False, True, True, False, True, False]
+2025-12-07 11:09:04,865 INFO     Start one around verification.
+2025-12-07 11:09:14,865 INFO     Random generated input: [0, 1, 1, 1, 1, 1, 0, 1]
+2025-12-07 11:09:14,865 INFO     Expected output: [False, False, True, True, False, False, True, True]
+2025-12-07 11:09:16,758 INFO     Get PLC result: [False, False, True, True, False, False, True, True]
+2025-12-07 11:09:16,758 INFO     Start one around verification.
+2025-12-07 11:09:26,770 INFO     Random generated input: [1, 1, 0, 1, 1, 0, 1, 0]
+2025-12-07 11:09:26,770 INFO     Expected output: [False, False, False, True, False, False, True, False]
+2025-12-07 11:09:28,661 INFO     Get PLC result: [False, False, False, True, False, False, True, False]
+2025-12-07 11:09:28,662 INFO     Start one around verification.
+2025-12-07 11:09:38,677 INFO     Random generated input: [1, 1, 0, 0, 0, 1, 0, 1]
+2025-12-07 11:09:38,677 INFO     Expected output: [True, False, False, False, False, False, False, True]
+2025-12-07 11:09:40,580 INFO     Get PLC result: [True, False, False, False, False, False, False, True]
+2025-12-07 11:09:40,581 INFO     Start one around verification.
+2025-12-07 11:09:50,587 INFO     Random generated input: [0, 1, 0, 0, 0, 1, 0, 0]
+2025-12-07 11:09:50,587 INFO     Expected output: [False, False, False, True, False, False, True, True]
+2025-12-07 11:09:52,486 INFO     Get PLC result: [False, False, False, True, False, False, True, True]
+2025-12-07 11:09:52,486 INFO     Start one around verification.
+2025-12-07 11:10:02,499 INFO     Random generated input: [1, 0, 1, 0, 1, 1, 1, 0]
+2025-12-07 11:10:02,499 INFO     Expected output: [False, True, False, True, False, False, True, True]
+2025-12-07 11:10:04,388 INFO     Get PLC result: [False, True, False, True, False, False, True, True]
+2025-12-07 11:10:04,389 INFO     Start one around verification.
+2025-12-07 11:10:14,391 INFO     Random generated input: [1, 0, 1, 0, 0, 1, 0, 0]
+2025-12-07 11:10:14,391 INFO     Expected output: [False, True, False, False, False, False, True, True]
+2025-12-07 11:10:16,286 INFO     Get PLC result: [False, True, False, False, False, False, True, True]
+2025-12-07 11:10:16,287 INFO     Start one around verification.
+2025-12-07 11:10:26,300 INFO     Random generated input: [1, 1, 0, 0, 0, 0, 0, 0]
+2025-12-07 11:10:26,300 INFO     Expected output: [False, False, False, False, True, False, True, False]
+2025-12-07 11:10:28,197 INFO     Get PLC result: [False, False, False, False, True, False, True, False]
+2025-12-07 11:10:28,198 INFO     Start one around verification.
+2025-12-07 11:10:38,204 INFO     Random generated input: [1, 1, 1, 1, 1, 1, 1, 1]
+2025-12-07 11:10:38,204 INFO     Expected output: [True, False, True, True, False, False, True, True]
+2025-12-07 11:10:40,101 INFO     Get PLC result: [True, False, True, True, False, False, True, True]
+2025-12-07 11:10:40,102 INFO     Start one around verification.
+2025-12-07 11:10:50,106 INFO     Random generated input: [1, 0, 0, 1, 0, 1, 1, 1]
+2025-12-07 11:10:50,106 INFO     Expected output: [True, True, False, True, False, False, True, True]
+2025-12-07 11:10:51,997 INFO     Get PLC result: [True, True, False, True, False, False, True, True]
+2025-12-07 11:10:51,998 INFO     Start one around verification.
+2025-12-07 11:11:02,002 INFO     Random generated input: [1, 1, 0, 1, 1, 0, 0, 1]
+2025-12-07 11:11:02,002 INFO     Expected output: [True, False, False, False, False, False, True, False]
+2025-12-07 11:11:03,902 INFO     Get PLC result: [True, False, False, False, False, False, True, False]
+2025-12-07 11:11:03,903 INFO     Start one around verification.
+2025-12-07 11:11:13,912 INFO     Random generated input: [1, 1, 0, 0, 0, 0, 1, 1]
+2025-12-07 11:11:13,912 INFO     Expected output: [True, False, False, True, True, False, False, False]
+2025-12-07 11:11:15,813 INFO     Get PLC result: [True, False, False, True, True, False, False, False]
+2025-12-07 11:11:15,814 INFO     Start one around verification.
+2025-12-07 11:11:25,821 INFO     Random generated input: [0, 1, 1, 1, 0, 1, 0, 0]
+2025-12-07 11:11:25,821 INFO     Expected output: [False, False, False, True, False, False, True, True]
+2025-12-07 11:11:27,705 INFO     Get PLC result: [False, False, False, True, False, False, True, True]
+2025-12-07 11:11:27,706 INFO     Start one around verification.
+2025-12-07 11:11:37,711 INFO     Random generated input: [1, 0, 0, 1, 0, 1, 1, 0]
+2025-12-07 11:11:37,711 INFO     Expected output: [False, True, False, True, False, False, True, True]
+2025-12-07 11:11:39,613 INFO     Get PLC result: [False, True, False, True, False, False, True, True]
+2025-12-07 11:11:39,613 INFO     Start one around verification.
+2025-12-07 11:11:49,625 INFO     Random generated input: [0, 1, 0, 1, 1, 1, 1, 1]
+2025-12-07 11:11:49,625 INFO     Expected output: [False, False, False, True, False, True, True, True]
+2025-12-07 11:11:51,530 INFO     Get PLC result: [False, False, False, True, False, True, True, True]
+2025-12-07 11:11:51,530 INFO     Start one around verification.
+2025-12-07 11:12:01,533 INFO     Random generated input: [1, 0, 1, 0, 1, 0, 0, 1]
+2025-12-07 11:12:01,533 INFO     Expected output: [True, True, False, False, False, False, False, False]
+2025-12-07 11:12:03,424 INFO     Get PLC result: [True, True, False, False, False, False, False, False]
+2025-12-07 11:12:03,425 INFO     Start one around verification.
+2025-12-07 11:12:13,429 INFO     Random generated input: [0, 1, 0, 1, 0, 0, 1, 1]
+2025-12-07 11:12:13,429 INFO     Expected output: [False, False, False, True, True, True, True, False]
+2025-12-07 11:12:15,333 INFO     Get PLC result: [False, False, False, True, True, True, True, False]
+2025-12-07 11:12:15,334 INFO     Start one around verification.
+2025-12-07 11:12:25,345 INFO     Random generated input: [0, 0, 0, 1, 1, 1, 0, 0]
+2025-12-07 11:12:25,345 INFO     Expected output: [False, True, False, True, False, False, True, True]
+2025-12-07 11:12:27,238 INFO     Get PLC result: [False, True, False, True, False, False, True, True]
+2025-12-07 11:12:27,239 INFO     Start one around verification.
+2025-12-07 11:12:37,248 INFO     Random generated input: [1, 0, 1, 0, 1, 0, 0, 1]
+2025-12-07 11:12:37,248 INFO     Expected output: [True, True, False, False, False, False, False, False]
+2025-12-07 11:12:39,139 INFO     Get PLC result: [True, True, False, False, False, False, False, False]
+2025-12-07 11:12:39,140 INFO     Start one around verification.
+2025-12-07 11:12:49,151 INFO     Random generated input: [0, 0, 1, 1, 1, 1, 0, 1]
+2025-12-07 11:12:49,151 INFO     Expected output: [False, True, True, True, False, False, True, True]
+2025-12-07 11:12:51,040 INFO     Get PLC result: [False, True, True, True, False, False, True, True]
+2025-12-07 11:12:51,041 INFO     Start one around verification.
+2025-12-07 11:13:01,047 INFO     Random generated input: [0, 1, 0, 0, 1, 1, 1, 1]
+2025-12-07 11:13:01,047 INFO     Expected output: [False, False, False, True, False, True, False, True]
+2025-12-07 11:13:02,932 INFO     Get PLC result: [False, False, False, True, False, True, False, True]
+2025-12-07 11:13:02,932 INFO     Start one around verification.
+2025-12-07 11:13:12,946 INFO     Random generated input: [0, 0, 0, 0, 1, 1, 0, 1]
+2025-12-07 11:13:12,946 INFO     Expected output: [False, True, False, True, False, False, False, True]
+2025-12-07 11:13:14,836 INFO     Get PLC result: [False, True, False, True, False, False, False, True]
+2025-12-07 11:13:14,837 INFO     Start one around verification.
+2025-12-07 11:13:24,843 INFO     Random generated input: [0, 0, 0, 0, 0, 0, 1, 1]
+2025-12-07 11:13:24,843 INFO     Expected output: [False, True, False, True, True, True, False, False]
+2025-12-07 11:13:26,727 INFO     Get PLC result: [False, True, False, True, True, True, False, False]
+2025-12-07 11:13:26,727 INFO     Start one around verification.
+2025-12-07 11:13:36,736 INFO     Random generated input: [1, 1, 1, 0, 0, 1, 0, 0]
+2025-12-07 11:13:36,736 INFO     Expected output: [False, False, False, False, False, False, True, True]
+2025-12-07 11:13:38,619 INFO     Get PLC result: [False, False, False, False, False, False, True, True]
+2025-12-07 11:13:38,619 INFO     Start one around verification.
+2025-12-07 11:13:48,634 INFO     Random generated input: [1, 0, 0, 0, 0, 0, 1, 1]
+2025-12-07 11:13:48,634 INFO     Expected output: [True, True, False, True, True, False, False, False]
+2025-12-07 11:13:50,521 INFO     Get PLC result: [True, True, False, True, True, False, False, False]
+2025-12-07 11:13:50,521 INFO     Start one around verification.
+2025-12-07 11:14:00,527 INFO     Random generated input: [0, 0, 0, 0, 0, 0, 1, 0]
+2025-12-07 11:14:00,527 INFO     Expected output: [False, True, False, True, True, True, True, False]
+2025-12-07 11:14:02,411 INFO     Get PLC result: [False, True, False, True, True, True, True, False]
+2025-12-07 11:14:02,411 INFO     Start one around verification.
+2025-12-07 11:14:12,421 INFO     Random generated input: [1, 0, 0, 0, 0, 0, 1, 0]
+2025-12-07 11:14:12,421 INFO     Expected output: [False, True, False, True, True, False, True, False]
+2025-12-07 11:14:14,303 INFO     Get PLC result: [False, True, False, True, True, False, True, False]
+2025-12-07 11:14:14,303 INFO     Start one around verification.
+2025-12-07 11:14:24,309 INFO     Random generated input: [1, 0, 0, 0, 0, 1, 1, 1]
+2025-12-07 11:14:24,309 INFO     Expected output: [True, True, False, True, False, False, False, True]
+2025-12-07 11:14:26,191 INFO     Get PLC result: [True, True, False, True, False, False, False, True]
+2025-12-07 11:14:26,191 INFO     Start one around verification.
+2025-12-07 11:14:36,195 INFO     Random generated input: [1, 0, 0, 0, 0, 1, 1, 0]
+2025-12-07 11:14:36,195 INFO     Expected output: [False, True, False, True, False, False, True, True]
+2025-12-07 11:14:38,085 INFO     Get PLC result: [False, True, False, True, False, False, True, True]
+2025-12-07 11:14:38,085 INFO     Start one around verification.
+2025-12-07 11:14:48,086 INFO     Random generated input: [0, 0, 0, 1, 1, 0, 0, 1]
+2025-12-07 11:14:48,086 INFO     Expected output: [False, True, False, True, False, False, True, False]
+2025-12-07 11:14:49,971 INFO     Get PLC result: [False, True, False, True, False, False, True, False]
+2025-12-07 11:14:49,971 INFO     Start one around verification.
+2025-12-07 11:14:59,985 INFO     Random generated input: [0, 1, 0, 1, 1, 1, 1, 1]
+2025-12-07 11:14:59,985 INFO     Expected output: [False, False, False, True, False, True, True, True]
+2025-12-07 11:15:01,873 INFO     Get PLC result: [False, False, False, True, False, True, True, True]
+2025-12-07 11:15:01,874 INFO     Start one around verification.
+2025-12-07 11:15:11,879 INFO     Random generated input: [0, 1, 1, 0, 1, 1, 0, 0]
+2025-12-07 11:15:11,879 INFO     Expected output: [False, False, False, True, False, False, True, True]
+2025-12-07 11:15:13,767 INFO     Get PLC result: [False, False, False, True, False, False, True, True]
+2025-12-07 11:15:13,767 INFO     Start one around verification.
+2025-12-07 11:15:23,774 INFO     Random generated input: [1, 1, 1, 1, 1, 1, 1, 1]
+2025-12-07 11:15:23,774 INFO     Expected output: [True, False, True, True, False, False, True, True]
+2025-12-07 11:15:25,645 INFO     Get PLC result: [True, False, True, True, False, False, True, True]
+2025-12-07 11:15:25,646 INFO     Start one around verification.
+2025-12-07 11:15:35,655 INFO     Random generated input: [1, 0, 1, 1, 1, 0, 0, 1]
+2025-12-07 11:15:35,655 INFO     Expected output: [True, True, True, False, False, False, True, False]
+2025-12-07 11:15:37,545 INFO     Get PLC result: [True, True, True, False, False, False, True, False]
+2025-12-07 11:15:37,546 INFO     Start one around verification.
+2025-12-07 11:15:47,550 INFO     Random generated input: [0, 1, 0, 0, 1, 0, 0, 0]
+2025-12-07 11:15:47,550 INFO     Expected output: [False, False, False, True, False, False, True, False]
+2025-12-07 11:15:49,449 INFO     Get PLC result: [False, False, False, True, False, False, True, False]
+2025-12-07 11:15:49,450 INFO     Start one around verification.
+2025-12-07 11:15:59,453 INFO     Random generated input: [1, 1, 1, 1, 1, 0, 1, 1]
+2025-12-07 11:15:59,453 INFO     Expected output: [True, False, True, True, False, False, True, False]
+2025-12-07 11:16:01,357 INFO     Get PLC result: [True, False, True, True, False, False, True, False]
+2025-12-07 11:16:01,358 INFO     Start one around verification.
+2025-12-07 11:16:11,373 INFO     Random generated input: [1, 1, 0, 0, 0, 1, 1, 0]
+2025-12-07 11:16:11,373 INFO     Expected output: [False, False, False, True, False, False, True, True]
+2025-12-07 11:16:13,272 INFO     Get PLC result: [False, False, False, True, False, False, True, True]
+2025-12-07 11:16:13,272 INFO     Start one around verification.
+2025-12-07 11:16:23,284 INFO     Random generated input: [1, 1, 0, 1, 0, 1, 1, 1]
+2025-12-07 11:16:23,284 INFO     Expected output: [True, False, False, True, False, False, True, True]
+2025-12-07 11:16:25,183 INFO     Get PLC result: [True, False, False, True, False, False, True, True]
+2025-12-07 11:16:25,184 INFO     Start one around verification.
+2025-12-07 11:16:35,191 INFO     Random generated input: [1, 1, 1, 1, 1, 1, 0, 1]
+2025-12-07 11:16:35,191 INFO     Expected output: [True, False, True, False, False, False, True, True]
+2025-12-07 11:16:37,089 INFO     Get PLC result: [True, False, True, False, False, False, True, True]
+2025-12-07 11:16:37,090 INFO     Start one around verification.
+2025-12-07 11:16:47,104 INFO     Random generated input: [1, 1, 0, 1, 0, 1, 0, 1]
+2025-12-07 11:16:47,104 INFO     Expected output: [True, False, False, False, False, False, True, True]
+2025-12-07 11:16:49,004 INFO     Get PLC result: [True, False, False, False, False, False, True, True]
+2025-12-07 11:16:49,005 INFO     Start one around verification.
+2025-12-07 11:16:59,019 INFO     Random generated input: [0, 0, 1, 0, 0, 1, 1, 0]
+2025-12-07 11:16:59,019 INFO     Expected output: [False, True, False, True, False, True, True, True]
+2025-12-07 11:17:00,917 INFO     Get PLC result: [False, True, False, True, False, True, True, True]
+2025-12-07 11:17:00,918 INFO     Start one around verification.
+2025-12-07 11:17:10,921 INFO     Random generated input: [1, 1, 0, 1, 0, 0, 1, 0]
+2025-12-07 11:17:10,921 INFO     Expected output: [False, False, False, True, True, False, True, False]
+2025-12-07 11:17:12,807 INFO     Get PLC result: [False, False, False, True, True, False, True, False]
+2025-12-07 11:17:12,808 INFO     Start one around verification.
+2025-12-07 11:17:22,821 INFO     Random generated input: [0, 0, 0, 0, 0, 1, 0, 0]
+2025-12-07 11:17:22,821 INFO     Expected output: [False, True, False, True, False, False, True, True]
+2025-12-07 11:17:24,716 INFO     Get PLC result: [False, True, False, True, False, False, True, True]
+2025-12-07 11:17:24,717 INFO     Start one around verification.
+2025-12-07 11:17:34,732 INFO     Random generated input: [1, 0, 1, 0, 1, 1, 0, 0]
+2025-12-07 11:17:34,732 INFO     Expected output: [False, True, False, False, False, False, True, True]
+2025-12-07 11:17:36,632 INFO     Get PLC result: [False, True, False, False, False, False, True, True]
+2025-12-07 11:17:36,633 INFO     Start one around verification.
+2025-12-07 11:17:46,640 INFO     Random generated input: [0, 0, 0, 0, 1, 1, 0, 0]
+2025-12-07 11:17:46,640 INFO     Expected output: [False, True, False, True, False, False, True, True]
+2025-12-07 11:17:48,541 INFO     Get PLC result: [False, True, False, True, False, False, True, True]
+2025-12-07 11:17:48,542 INFO     Start one around verification.
+2025-12-07 11:17:58,552 INFO     Random generated input: [1, 0, 0, 1, 0, 0, 1, 0]
+2025-12-07 11:17:58,552 INFO     Expected output: [False, True, False, True, True, False, True, False]
+2025-12-07 11:18:00,448 INFO     Get PLC result: [False, True, False, True, True, False, True, False]
+2025-12-07 11:18:00,448 INFO     Start one around verification.
+2025-12-07 11:18:10,450 INFO     Random generated input: [0, 0, 0, 0, 0, 1, 0, 0]
+2025-12-07 11:18:10,450 INFO     Expected output: [False, True, False, True, False, False, True, True]
+2025-12-07 11:18:12,349 INFO     Get PLC result: [False, True, False, True, False, False, True, True]
+2025-12-07 11:18:12,349 INFO     Start one around verification.
+2025-12-07 11:18:22,362 INFO     Random generated input: [0, 0, 1, 1, 0, 1, 0, 1]
+2025-12-07 11:18:22,362 INFO     Expected output: [False, True, False, True, False, False, True, True]
+2025-12-07 11:18:24,264 INFO     Get PLC result: [False, True, False, True, False, False, True, True]
+2025-12-07 11:18:24,265 INFO     Start one around verification.
+2025-12-07 11:18:34,279 INFO     Random generated input: [1, 1, 0, 0, 0, 0, 1, 1]
+2025-12-07 11:18:34,279 INFO     Expected output: [True, False, False, True, True, False, False, False]
+2025-12-07 11:18:36,173 INFO     Get PLC result: [True, False, False, True, True, False, False, False]
+2025-12-07 11:18:36,174 INFO     Start one around verification.
+2025-12-07 11:18:46,187 INFO     Random generated input: [0, 1, 1, 0, 0, 1, 0, 0]
+2025-12-07 11:18:46,187 INFO     Expected output: [False, False, False, True, False, False, True, True]
+2025-12-07 11:18:48,077 INFO     Get PLC result: [False, False, False, True, False, False, True, True]
+2025-12-07 11:18:48,078 INFO     Start one around verification.
+2025-12-07 11:18:58,084 INFO     Random generated input: [0, 0, 1, 0, 1, 1, 1, 1]
+2025-12-07 11:18:58,084 INFO     Expected output: [False, True, False, True, False, True, False, True]
+2025-12-07 11:18:59,984 INFO     Get PLC result: [False, True, False, True, False, True, False, True]
+2025-12-07 11:18:59,985 INFO     Start one around verification.
+2025-12-07 11:19:09,990 INFO     Random generated input: [1, 0, 1, 0, 0, 0, 1, 0]
+2025-12-07 11:19:09,990 INFO     Expected output: [False, True, False, True, True, False, True, False]
+2025-12-07 11:19:11,888 INFO     Get PLC result: [False, True, False, True, True, False, True, False]
+2025-12-07 11:19:11,889 INFO     Start one around verification.
+2025-12-07 11:19:21,900 INFO     Random generated input: [1, 1, 0, 1, 1, 1, 0, 0]
+2025-12-07 11:19:21,900 INFO     Expected output: [False, False, False, False, False, False, True, True]
+2025-12-07 11:19:23,796 INFO     Get PLC result: [False, False, False, False, False, False, True, True]
+2025-12-07 11:19:23,797 INFO     Start one around verification.
+2025-12-07 11:19:33,803 INFO     Random generated input: [1, 0, 1, 1, 1, 1, 0, 1]
+2025-12-07 11:19:33,803 INFO     Expected output: [True, True, True, False, False, False, True, True]
+2025-12-07 11:19:35,704 INFO     Get PLC result: [True, True, True, False, False, False, True, True]
+2025-12-07 11:19:35,705 INFO     Start one around verification.
+2025-12-07 11:19:45,717 INFO     Random generated input: [1, 1, 0, 0, 0, 0, 1, 1]
+2025-12-07 11:19:45,717 INFO     Expected output: [True, False, False, True, True, False, False, False]
+2025-12-07 11:19:47,615 INFO     Get PLC result: [True, False, False, True, True, False, False, False]
+2025-12-07 11:19:47,615 INFO     Start one around verification.
+2025-12-07 11:19:57,627 INFO     Random generated input: [1, 0, 0, 1, 0, 0, 0, 0]
+2025-12-07 11:19:57,627 INFO     Expected output: [False, True, False, False, True, False, True, False]
+2025-12-07 11:19:59,522 INFO     Get PLC result: [False, True, False, False, True, False, True, False]
+2025-12-07 11:19:59,523 INFO     Start one around verification.
+2025-12-07 11:20:09,533 INFO     Random generated input: [1, 1, 0, 0, 0, 1, 0, 0]
+2025-12-07 11:20:09,533 INFO     Expected output: [False, False, False, False, False, False, True, True]
+2025-12-07 11:20:11,429 INFO     Get PLC result: [False, False, False, False, False, False, True, True]
+2025-12-07 11:20:11,430 INFO     Start one around verification.
+2025-12-07 11:20:21,434 INFO     Random generated input: [0, 1, 1, 1, 1, 0, 1, 0]
+2025-12-07 11:20:21,434 INFO     Expected output: [False, False, True, True, False, True, True, False]
+2025-12-07 11:20:23,332 INFO     Get PLC result: [False, False, True, True, False, True, True, False]
+2025-12-07 11:20:23,332 INFO     Start one around verification.
+2025-12-07 11:20:33,333 INFO     Random generated input: [1, 1, 1, 1, 0, 1, 1, 1]
+2025-12-07 11:20:33,334 INFO     Expected output: [True, False, False, True, False, False, True, True]
+2025-12-07 11:20:35,230 INFO     Get PLC result: [True, False, False, True, False, False, True, True]
+2025-12-07 11:20:35,230 INFO     Start one around verification.
+2025-12-07 11:20:45,235 INFO     Random generated input: [0, 0, 0, 0, 1, 1, 1, 0]
+2025-12-07 11:20:45,235 INFO     Expected output: [False, True, False, True, False, True, True, True]

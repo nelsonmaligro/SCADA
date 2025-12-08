@@ -1,0 +1,147 @@
+{% extends 'base.html' %}
+
+{% block title %} PLC Data Controller View Page{% endblock %}
+
+{% block style%} <style></style> {% endblock %}
+
+{% block script %}
+
+{% endblock %}
+
+{% block content %}
+
+<ul class="list-group">
+    <li class="list-group-item">
+        <h3> PLC Data Controller State View [ Simulator ID : 
+            <b class="text-primary"> {{posts["controllerinfo"]["id"]}}</b> ]  
+        </h3>
+    </li>
+</ul>
+
+<div class="row">
+    <div class="col-sm-3">
+        
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h5> PLC Controller Information </h5>
+            </li>
+            <li class="list-group-item">
+                <P> <span class="badge bg-secondary">PLC Controller ID </span> : 
+                    {{posts["controllerinfo"]["id"]}} </P>
+                
+                <P> <span class="badge bg-secondary">PLC Controller IP Address </span> : 
+                    {{posts["controllerinfo"]["ip"]}} </P>
+          
+                <P> <span class="badge bg-secondary">PLC Controller OT Protocol </span> : 
+                    {% if posts["controllerinfo"]["protocol"] == 'Modbus' %}
+                        <span class="badge bg-success">{{posts["controllerinfo"]["protocol"]}}</span>
+                    {% else %}
+                        <span class="badge bg-primary">{{posts["controllerinfo"]["protocol"]}}</span>
+                    {% endif%}
+
+                </P>
+            
+                <P> <span class="badge bg-secondary">PLC Controller Online State </span> : 
+                    {% if posts["controllerinfo"]["online"] %}
+                        <span class="badge bg-success"> Online </span>
+                    {% else %}
+                        <span class="badge bg-danger"> Offline </span>
+                    {% endif%}
+                </P>
+
+                <P> <span class="badge bg-secondary">PLC Controller Last Update Time</span> : 
+                    {{posts["controllerinfo"]["lastUpdateT"]}} </P>
+                            
+                <P> <span class="badge bg-secondary">PLC Controller Total Report Time</span> : 
+                    {{posts["controllerinfo"]["reportT"]}} mins </P>
+
+                <P> <span class="badge bg-secondary">Target PLC ID</span> : 
+                    {{posts["controllerinfo"]["TargetID"]}} </P>
+
+                <P> <span class="badge bg-secondary">Target PLC IP Address </span> : 
+                        {{posts["controllerinfo"]["TargetIP"]}} </P>
+
+                <P> <span class="badge bg-secondary">Total Report Received</span> : 
+                    {{posts["controllerinfo"]["totalRptCount"]}} </P>
+                    
+                <P> <span class="badge bg-secondary">Alert Report Received</span> : 
+                    {{posts["controllerinfo"]["exceptCount"]}} </P>
+            </li>
+        </ul>
+    </div> 
+
+    <div class="col-sm-4">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h5 class="text-info"> PLC Controller Reports</h5>
+            </li>
+
+            <li> 
+                <table class="table table-striped table-bordered table-sm">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Time</th>
+                            <th>Report Type</th>
+                            <th>Report Message</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for report in posts["report"] %}
+                            <tr>
+                                <td>{{report["time"]}}</td>
+                                <td>
+                                    {% if report["type"] == 'alert' %}
+                                        <span class="badge bg-danger">{{report["type"]}}</span>
+                                    {% elif report["type"] == 'warning' %}
+                                        <span class="badge bg-warning">{{report["type"]}}</span>
+                                    {% else %}
+                                        <span class="badge bg-info">{{report["type"]}}</span>
+                                    {% endif%}
+                                </td>
+                                <td>{{report["message"]}}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </li>
+        </ul>
+
+    </div> 
+
+    <div class="col-sm-4">
+    
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h5 class="text-warning"> Alerts And Warnings</h5>
+            </li>
+            <li> 
+                <table class="table table-striped table-bordered table-sm">
+                    <thead class="table-dark">
+                        <tr class="table-secondary">
+                            <th>Time</th>
+                            <th>Alert Type</th>
+                            <th>Report Message</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for report in posts["alert"] %}
+                            {% if report["type"] == 'warning' %}
+                                <tr class="table-warning">
+                            {% else %}alert
+                                <tr class="table-danger">
+                            {% endif%}
+                                <td>{{report["time"]}}</td>
+                                <td>{{report["type"]}}</td>
+                                <td>{{report["message"]}}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </li>
+        </ul>
+
+    </div> 
+
+</div>
+
+{% endblock %}

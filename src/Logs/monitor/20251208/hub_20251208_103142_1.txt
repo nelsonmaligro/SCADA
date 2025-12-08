@@ -1,0 +1,22 @@
+2025-12-08 10:31:42,741 INFO     Monitor Hub Data Manager Initialized.
+2025-12-08 10:31:46,712 INFO     Raw Data: {'ID': 'S7commPLC02', 'Action': 'login', 'Timestamp': '2025-12-08 10:31:46', 'Data': {'ID': 'S7commPLC02', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 10:31:46,712 INFO     Added a new PLC emulator: S7commPLC02
+2025-12-08 10:31:46,712 INFO     PLC Emulator: S7commPLC02 login.
+2025-12-08 10:31:49,516 INFO     Raw Data: {'ID': 'Controller01', 'Action': 'login', 'Timestamp': '2025-12-08 10:31:49', 'Data': {'ID': 'Controller01', 'IP': '192.168.8.34', 'Type': 'controller', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py', 'TargetID': 'S7commPLC02', 'TargetIP': '127.0.0.1'}}
+2025-12-08 10:31:49,516 INFO     Added a new PLC controller: Controller01
+2025-12-08 10:31:49,516 INFO     PLC Controller: Controller01 login.
+2025-12-08 10:32:04,542 INFO     Raw Data: {'ID': 'Controller01', 'Action': 'normal', 'Timestamp': '2025-12-08 10:32:04', 'Data': {'type': 'normal', 'time': '2025-12-08 10:32:01', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 10:32:14,578 INFO     Raw Data: {'ID': 'Controller01', 'Action': 'normal', 'Timestamp': '2025-12-08 10:32:14', 'Data': {'type': 'normal', 'time': '2025-12-08 10:32:13', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 10:32:29,610 INFO     Raw Data: {'ID': 'Controller01', 'Action': 'normal', 'Timestamp': '2025-12-08 10:32:29', 'Data': {'type': 'normal', 'time': '2025-12-08 10:32:25', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 10:32:39,634 INFO     Raw Data: {'ID': 'Controller01', 'Action': 'normal', 'Timestamp': '2025-12-08 10:32:39', 'Data': {'type': 'normal', 'time': '2025-12-08 10:32:37', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 10:32:54,672 INFO     Raw Data: {'ID': 'Controller01', 'Action': 'normal', 'Timestamp': '2025-12-08 10:32:54', 'Data': {'type': 'normal', 'time': '2025-12-08 10:32:49', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 10:33:04,691 INFO     Raw Data: {'ID': 'Controller01', 'Action': 'normal', 'Timestamp': '2025-12-08 10:33:04', 'Data': {'type': 'normal', 'time': '2025-12-08 10:33:01', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 10:33:14,724 INFO     Raw Data: {'ID': 'Controller01', 'Action': 'normal', 'Timestamp': '2025-12-08 10:33:14', 'Data': {'type': 'normal', 'time': '2025-12-08 10:33:13', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 10:33:29,752 INFO     Raw Data: {'ID': 'Controller01', 'Action': 'normal', 'Timestamp': '2025-12-08 10:33:29', 'Data': {'type': 'normal', 'time': '2025-12-08 10:33:25', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 10:33:39,763 INFO     Raw Data: {'ID': 'Controller01', 'Action': 'normal', 'Timestamp': '2025-12-08 10:33:39', 'Data': {'type': 'normal', 'time': '2025-12-08 10:33:37', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 10:33:54,799 INFO     Raw Data: {'ID': 'Controller01', 'Action': 'normal', 'Timestamp': '2025-12-08 10:33:54', 'Data': {'type': 'normal', 'time': '2025-12-08 10:33:50', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 10:34:04,807 INFO     Raw Data: {'ID': 'Controller01', 'Action': 'normal', 'Timestamp': '2025-12-08 10:34:04', 'Data': {'type': 'normal', 'time': '2025-12-08 10:34:02', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 10:34:14,830 INFO     Raw Data: {'ID': 'Controller01', 'Action': 'normal', 'Timestamp': '2025-12-08 10:34:14', 'Data': {'type': 'normal', 'time': '2025-12-08 10:34:14', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 10:34:29,858 INFO     Raw Data: {'ID': 'Controller01', 'Action': 'normal', 'Timestamp': '2025-12-08 10:34:29', 'Data': {'type': 'normal', 'time': '2025-12-08 10:34:26', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 10:34:39,888 INFO     Raw Data: {'ID': 'Controller01', 'Action': 'normal', 'Timestamp': '2025-12-08 10:34:39', 'Data': {'type': 'normal', 'time': '2025-12-08 10:34:38', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 10:34:54,918 INFO     Raw Data: {'ID': 'Controller01', 'Action': 'normal', 'Timestamp': '2025-12-08 10:34:54', 'Data': {'type': 'normal', 'time': '2025-12-08 10:34:50', 'message': 'normal : PLC Control Loop Normal'}}

@@ -1,0 +1,30 @@
+2025-12-07 22:09:59,337 INFO     Monitor Hub Data Manager Initialized.
+2025-12-07 22:10:02,365 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'login', 'Timestamp': '2025-12-07 22:10:02', 'Data': {'ID': 'modbusPLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'Modbus', 'LadderID': 'mbLadderLogic.py'}}
+2025-12-07 22:10:02,365 INFO     Added a new PLC emulator: modbusPLC01
+2025-12-07 22:10:02,365 INFO     PLC Emulator: modbusPLC01 login.
+2025-12-07 22:10:05,186 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'login', 'Timestamp': '2025-12-07 22:10:05', 'Data': {'ID': 'modbusPLC01', 'IP': '192.168.8.34', 'Type': 'controller', 'Protocol': 'Modbus', 'LadderID': 'mbLadderLogic.py', 'TargetID': 'modbusPLC01', 'TargetIP': '192.168.8.34'}}
+2025-12-07 22:10:05,188 INFO     Added a new PLC controller: modbusPLC01
+2025-12-07 22:10:05,188 INFO     PLC Controller: modbusPLC01 login.
+2025-12-07 22:10:20,221 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'normal', 'Timestamp': '2025-12-07 22:10:20', 'Data': {'type': 'normal', 'time': '2025-12-07 22:10:17', 'message': 'normal : Pass:PLC Control Loop Normal'}}
+2025-12-07 22:10:30,257 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'normal', 'Timestamp': '2025-12-07 22:10:30', 'Data': {'type': 'normal', 'time': '2025-12-07 22:10:29', 'message': 'normal : Pass:PLC Control Loop Normal'}}
+2025-12-07 22:10:45,289 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'normal', 'Timestamp': '2025-12-07 22:10:45', 'Data': {'type': 'normal', 'time': '2025-12-07 22:10:40', 'message': 'normal : Pass:PLC Control Loop Normal'}}
+2025-12-07 22:10:52,379 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'alert', 'Timestamp': '2025-12-07 22:10:52', 'Data': {'type': 'alert', 'time': '2025-12-07 22:10:49', 'message': 'alert : User try to add IP 192.168.8.35 in the allow read IP list.'}}
+2025-12-07 22:10:55,306 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'alert', 'Timestamp': '2025-12-07 22:10:55', 'Data': {'type': 'alert', 'time': '2025-12-07 22:10:52', 'message': 'alert : alert:PLC output not match with expected'}}
+2025-12-07 22:10:57,383 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'alert', 'Timestamp': '2025-12-07 22:10:57', 'Data': {'type': 'alert', 'time': '2025-12-07 22:10:51', 'message': 'alert : User try to add IP 192.168.8.35 in the allow write IP list.'}}
+2025-12-07 22:11:10,324 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'alert', 'Timestamp': '2025-12-07 22:11:10', 'Data': {'type': 'alert', 'time': '2025-12-07 22:11:07', 'message': 'alert : alert:PLC output not match with expected'}}
+2025-12-07 22:12:30,472 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'alert', 'Timestamp': '2025-12-07 22:12:30', 'Data': {'type': 'alert', 'time': '2025-12-07 22:12:28', 'message': 'alert : alert:PLC output not match with expected'}}
+2025-12-07 22:14:41,062 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'login', 'Timestamp': '2025-12-07 22:14:41', 'Data': {'ID': 'modbusPLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'Modbus', 'LadderID': 'mbLadderLogic.py'}}
+2025-12-07 22:14:41,062 INFO     Updated existed PLC emulator info: modbusPLC01
+2025-12-07 22:14:41,064 INFO     PLC Emulator: modbusPLC01 login.
+2025-12-07 22:14:44,898 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'login', 'Timestamp': '2025-12-07 22:14:44', 'Data': {'ID': 'modbusPLC01', 'IP': '192.168.8.34', 'Type': 'controller', 'Protocol': 'Modbus', 'LadderID': 'mbLadderLogic.py', 'TargetID': 'modbusPLC01', 'TargetIP': '192.168.8.34'}}
+2025-12-07 22:14:44,898 INFO     Updated existed PLC controller info: modbusPLC01
+2025-12-07 22:14:44,899 INFO     PLC Controller: modbusPLC01 login.
+2025-12-07 22:14:56,074 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'alert', 'Timestamp': '2025-12-07 22:14:56', 'Data': {'type': 'alert', 'time': '2025-12-07 22:14:55', 'message': 'alert : User try to add IP 192.168.8.35 in the allow read IP list.'}}
+2025-12-07 22:14:59,948 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'normal', 'Timestamp': '2025-12-07 22:14:59', 'Data': {'type': 'normal', 'time': '2025-12-07 22:14:56', 'message': 'normal : Pass:PLC Control Loop Normal'}}
+2025-12-07 22:15:06,078 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'alert', 'Timestamp': '2025-12-07 22:15:06', 'Data': {'type': 'alert', 'time': '2025-12-07 22:15:02', 'message': 'alert : User try to add IP 192.168.8.35 in the allow write IP list.'}}
+2025-12-07 22:15:09,970 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'normal', 'Timestamp': '2025-12-07 22:15:09', 'Data': {'type': 'normal', 'time': '2025-12-07 22:15:08', 'message': 'normal : Pass:PLC Control Loop Normal'}}
+2025-12-07 22:15:24,998 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'normal', 'Timestamp': '2025-12-07 22:15:24', 'Data': {'type': 'normal', 'time': '2025-12-07 22:15:20', 'message': 'normal : Pass:PLC Control Loop Normal'}}
+2025-12-07 22:15:35,017 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'alert', 'Timestamp': '2025-12-07 22:15:35', 'Data': {'type': 'alert', 'time': '2025-12-07 22:15:32', 'message': 'alert : alert:PLC output not match with expected'}}
+2025-12-07 22:17:00,195 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'alert', 'Timestamp': '2025-12-07 22:17:00', 'Data': {'type': 'alert', 'time': '2025-12-07 22:16:57', 'message': 'alert : alert:PLC output not match with expected'}}
+2025-12-07 22:17:15,213 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'normal', 'Timestamp': '2025-12-07 22:17:15', 'Data': {'type': 'normal', 'time': '2025-12-07 22:17:10', 'message': 'normal : Pass:PLC Control Loop Normal'}}
+2025-12-07 22:17:25,227 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'normal', 'Timestamp': '2025-12-07 22:17:25', 'Data': {'type': 'normal', 'time': '2025-12-07 22:17:22', 'message': 'normal : Pass:PLC Control Loop Normal'}}

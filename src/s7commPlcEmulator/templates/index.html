@@ -1,0 +1,88 @@
+{% extends 'mgmbase.html' %}
+
+{% block title %} Siemens S7-1200 PLC {% endblock %}
+
+{% block style%} <style></style> {% endblock %}
+
+{% block mgmContent %}
+
+<ul class="list-group ">
+
+    <li class="list-group-item bg-secondary">
+        <p> <b>PLC_1</b> </p>
+        <h4 > PLC IP Address : <b class="text-dark">{{ posts['ipaddress'] }} </b></h3>
+        <p> </p>
+    </li>
+    <li class="list-group-item bg-light">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="{{url_for('static', filename='img/plcImg1.png')}}" align="left" style="width:400px;" class="img-thumbnail" />
+            </div>
+            <div class="col-sm-8">
+                <table class="table table-hover">
+                    <thead>
+                        <tr class="table-secondary">
+                            <th>General : </th>
+                            <th> </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-secondary">
+                            <td> Station name : </td>
+                            <td> SIMATIC 1200 station_1</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <td> Module name : </td>
+                            <td> PLC_1 </td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <td> Module type : </td>
+                            <td> CPU 1214C ACDCRty </td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <td>IP Address : </td>
+                            <td>{{ posts['ipaddress']}}</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <td> &#11208 </td>
+                            <td> </td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <td><b>Status : </b></td>
+                            <td> </td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <td>Operating Mode : </td>
+                            <td>RUN</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <td>Status : </td>
+                            <td>OK</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </li>
+
+    <li class="list-group-item bg-light">
+        <h4> <b class="text-primary"> Product Description</b></h4>
+        <p class="text-dark"> The modular SIMATIC S7-1200 controller is at the core of our offering for simple but 
+            highly precise automation tasks. The SIMATIC S7-1200 controller is modular and compact, 
+            versatile, a secure investment, and is perfectly suited to a whole range of applications.
+        </p>
+
+        <p class="text-dark"> SIMATIC S7-1200 controllers are the ideal choice when it comes to flexibly and efficiently 
+            performing automation tasks in the lower to medium performance range. They feature a comprehensive 
+            range of technological functions and integrated communication as well as especially compact and 
+            space-saving design.
+        </p>
+
+        <p class="text-dark"> The S7-1200 controller is designed as a compact CPU, which means that IOs are 
+            already integrated. Yet the S7-1200 station can be equipped with additional IO modules to enlarge 
+            the capabilities of the PLC.
+        </p>
+
+    </li>
+</ul>
+{% endblock %}

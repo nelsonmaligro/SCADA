@@ -1,0 +1,10 @@
+2025-12-08 15:31:39,720 INFO     Monitor Hub Data Manager Initialized.
+2025-12-08 15:31:49,985 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'login', 'Timestamp': '2025-12-08 15:31:49', 'Data': {'ID': 'modbusPLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'Modbus', 'LadderID': 'mbLadderLogic.py'}}
+2025-12-08 15:31:49,986 INFO     Added a new PLC emulator: modbusPLC01
+2025-12-08 15:31:49,986 INFO     PLC Emulator: modbusPLC01 login.
+2025-12-08 15:32:01,554 INFO     Raw Data: {'ID': 'modbusControl01', 'Action': 'login', 'Timestamp': '2025-12-08 15:32:01', 'Data': {'ID': 'modbusControl01', 'IP': '192.168.8.34', 'Type': 'controller', 'Protocol': 'Modbus', 'LadderID': 'mbLadderLogic.py', 'TargetID': 'modbusPLC01', 'TargetIP': '192.168.8.34'}}
+2025-12-08 15:32:01,555 INFO     Added a new PLC controller: modbusControl01
+2025-12-08 15:32:01,556 INFO     PLC Controller: modbusControl01 login.
+2025-12-08 15:32:01,865 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'login', 'Timestamp': '2025-12-08 15:32:01', 'Data': {'ID': 'S7Control01', 'IP': '192.168.8.34', 'Type': 'controller', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py', 'TargetID': 'S7PLC01', 'TargetIP': '192.168.8.34'}}
+2025-12-08 15:32:01,866 INFO     Added a new PLC controller: S7Control01
+2025-12-08 15:32:01,866 INFO     PLC Controller: S7Control01 login.

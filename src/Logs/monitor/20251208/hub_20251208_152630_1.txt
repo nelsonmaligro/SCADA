@@ -1,0 +1,16 @@
+2025-12-08 15:26:30,030 INFO     Monitor Hub Data Manager Initialized.
+2025-12-08 15:26:40,204 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'login', 'Timestamp': '2025-12-08 15:26:40', 'Data': {'ID': 'modbusPLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'Modbus', 'LadderID': 'mbLadderLogic.py'}}
+2025-12-08 15:26:40,206 INFO     Added a new PLC emulator: modbusPLC01
+2025-12-08 15:26:40,206 INFO     PLC Emulator: modbusPLC01 login.
+2025-12-08 15:26:49,722 INFO     Raw Data: {'ID': 'modbusControl01', 'Action': 'login', 'Timestamp': '2025-12-08 15:26:49', 'Data': {'ID': 'modbusControl01', 'IP': '192.168.8.34', 'Type': 'controller', 'Protocol': 'Modbus', 'LadderID': 'mbLadderLogic.py', 'TargetID': 'modbusPLC01', 'TargetIP': '192.168.8.34'}}
+2025-12-08 15:26:49,722 INFO     Added a new PLC controller: modbusControl01
+2025-12-08 15:26:49,722 INFO     PLC Controller: modbusControl01 login.
+2025-12-08 15:26:51,948 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'login', 'Timestamp': '2025-12-08 15:26:51', 'Data': {'ID': 'S7Control01', 'IP': '192.168.8.34', 'Type': 'controller', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py', 'TargetID': 'S7PLC01', 'TargetIP': '192.168.8.34'}}
+2025-12-08 15:26:51,948 INFO     Added a new PLC controller: S7Control01
+2025-12-08 15:26:51,948 INFO     PLC Controller: S7Control01 login.
+2025-12-08 15:27:04,757 INFO     Raw Data: {'ID': 'modbusControl01', 'Action': 'normal', 'Timestamp': '2025-12-08 15:27:04', 'Data': {'type': 'normal', 'time': '2025-12-08 15:27:01', 'message': 'normal : Pass:PLC Control Loop Normal'}}
+2025-12-08 15:27:06,976 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'alert', 'Timestamp': '2025-12-08 15:27:06', 'Data': {'type': 'alert', 'time': '2025-12-08 15:27:03', 'message': 'alert : alert:Lost connection to target PLC:S7PLC01'}}
+2025-12-08 15:27:14,773 INFO     Raw Data: {'ID': 'modbusControl01', 'Action': 'normal', 'Timestamp': '2025-12-08 15:27:14', 'Data': {'type': 'normal', 'time': '2025-12-08 15:27:13', 'message': 'normal : Pass:PLC Control Loop Normal'}}
+2025-12-08 15:27:16,996 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'alert', 'Timestamp': '2025-12-08 15:27:16', 'Data': {'type': 'alert', 'time': '2025-12-08 15:27:15', 'message': 'alert : alert:Lost connection to target PLC:S7PLC01'}}
+2025-12-08 15:27:29,798 INFO     Raw Data: {'ID': 'modbusControl01', 'Action': 'normal', 'Timestamp': '2025-12-08 15:27:29', 'Data': {'type': 'normal', 'time': '2025-12-08 15:27:25', 'message': 'normal : Pass:PLC Control Loop Normal'}}
+2025-12-08 15:27:32,003 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'alert', 'Timestamp': '2025-12-08 15:27:32', 'Data': {'type': 'alert', 'time': '2025-12-08 15:27:27', 'message': 'alert : alert:Lost connection to target PLC:S7PLC01'}}

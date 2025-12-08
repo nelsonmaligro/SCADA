@@ -1,0 +1,40 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<br>
+<div class="row">
+    <div class="col-sm-2">
+        <div class="list-group">
+            <a href="{{ url_for('index')}}" class="list-group-item list-group-item-action 
+            {% if posts['page'] == 0 %} bg-secondary {% endif %}"> Introduction </a>
+        </div>
+
+        <div class="list-group">
+            <a href="{{ url_for('agentview')}}" class="list-group-item list-group-item-action 
+            {% if posts['page'] == 1 %} bg-secondary {% endif %}"> Agents View </a>            
+        </div>
+
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action 
+            {% if posts['page'] == 2 %} bg-secondary {% endif %}"> Agent Log View </a>            
+        </div>
+
+        <div class="list-group">
+            <a href="{{ url_for('clients')}}" class="list-group-item list-group-item-action 
+            {% if posts['page'] == 3 %} bg-secondary {% endif %}"> FTP Clients Connection</a>            
+        </div>
+        <p></p>
+        <img src="{{url_for('static', filename='img/honeypotlogo.png')}}" class="rounded mx-auto d-block" alt="logo"
+        width="240">
+        <br>
+    </div>
+
+    <div class="col-sm-10">
+        {% block mgmContent %}
+        {% endblock %}
+        {% for message in get_flashed_messages() %}
+        <div class="alert alert-danger"> {{message}}</div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

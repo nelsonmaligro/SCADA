@@ -1,0 +1,11 @@
+2025-12-08 15:23:43,756 INFO     PLC controller S7Control01 Inited
+2025-12-08 15:23:43,756 INFO     PLC controller verification loop started
+2025-12-08 15:23:43,756 INFO     Start one around verification.
+2025-12-08 15:23:53,759 INFO     Random generate input: [False, True, False, True, True, False, True, True]
+2025-12-08 15:23:53,759 INFO     Expected output: [False, False, False, True, False, True, True, False]
+2025-12-08 15:23:55,801 INFO     Lost connection to target PLC:S7PLC01
+2025-12-08 15:23:55,801 INFO     Start one around verification.
+2025-12-08 15:24:05,815 INFO     Random generate input: [True, False, False, True, False, True, True, False]
+2025-12-08 15:24:05,816 INFO     Expected output: [False, True, False, True, False, False, True, True]
+2025-12-08 15:24:07,848 INFO     Lost connection to target PLC:S7PLC01
+2025-12-08 15:24:07,848 INFO     Start one around verification.

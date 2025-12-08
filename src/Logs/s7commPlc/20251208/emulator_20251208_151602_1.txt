@@ -1,0 +1,2 @@
+2025-12-08 15:16:02,714 INFO     PLC data manager init finished.
+2025-12-08 15:16:02,716 INFO     PLC S7Comm server started.

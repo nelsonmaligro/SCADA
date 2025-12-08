@@ -1,0 +1,73 @@
+# This is the config file template for the module <logArchiveAgent.py>
+# Setup the parameter with below format (every line follows <key>:<val> format, the
+# key can not be changed):
+
+#-----------------------------------------------------------------------------
+# Unique Agent ID, all the log file will be saved in the server's home/<AGENT_ID>/ folder
+AGENT_ID:modbusPLC01
+AGENT_IP:192.168.8.34
+
+#-----------------------------------------------------------------------------
+# FTP server info and login credentials, don't upload the credentials to the Github
+FTP_SER_IP:192.168.8.34
+FTP_SER_PORT:8081
+USER_NAME:admin	
+USER_PWD:admin
+
+#-----------------------------------------------------------------------------
+# Uploaded files record json file, need to be at same folder of <logArchiveAgent.py>
+# if not exist, the agent will create a empty one.
+RCD_JSON:uploadRcd.json
+
+#-----------------------------------------------------------------------------
+# local folder save the log files. 
+LOG_DIR:Logs
+# the file extension of the log files such as : .txt, .log, .csv, etc.
+LOG_PF:.txt
+
+#-----------------------------------------------------------------------------
+# Time interval between 2 upload processes, in seconds.
+UPLOAD_INV:10
+
+#-----------------------------------------------------------------------------
+OWN_ID:modbusControl01
+OWN_IP:192.168.8.34
+
+# The OT protocol type string, "Modbus" or "S7Comm".
+PRO_TYPE:Modbus
+
+# The ladder logic file id used by this PLC emulator.
+LADDER_ID:mbLadderLogic.py
+
+#-----------------------------------------------------------------------------
+# Define the ip addresses allowed to read PLC state: 
+# json list format: ["masterIP", "slave1IP", ...]
+ALLOW_R_L:["127.0.0.1", "200.200.200.40"]
+
+# Define the ip addresses allowed to change PLC state: 
+# json list format: ["masterIP", "slave1IP", ...]
+ALLOW_W_L:["127.0.0.1", "200.200.200.40"]
+
+#-----------------------------------------------------------------------------
+# define the monitor hub parameters : 
+MON_IP:127.0.0.1
+MON_PORT:5000
+
+# Time interval to report to the monitor hub in seconds:
+RPT_INTERVAL:5
+
+#-----------------------------------------------------------------------------
+# Init the PLC local web Flask app parameters
+FLASK_SER_PORT:5001
+FLASK_DEBUG_MD:False
+FLASK_MULTI_TH:True
+
+# The PLC local web  use credential record file 
+USERS_RCD:users.json
+
+PLC_ID:modbusPLC01
+PLC_IP:192.168.8.34
+PLC_PORT:502
+
+# PLC data fetch time interval (sec)
+PLC_CINT:10

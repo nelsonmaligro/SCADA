@@ -1,0 +1,141 @@
+{% extends 'mgmbase.html' %}
+
+{% block title %} PLC Data Controller State View Page{% endblock %}
+
+{% block style%} <style></style> {% endblock %}
+
+{% block script %}
+
+{% endblock %}
+
+{% block mgmContent %}
+
+<ul class="list-group">
+    <li class="list-group-item">
+        <h3> PLC Data Controller - HMI State View </h3>
+    </li>
+</ul>
+
+<div class="row">
+    <div class="col-sm-9">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h5> PLC Data Controller - HMI State Table </h5>
+            </li>
+            <li class="list-group-item">
+                <table class="table table-bordered table-sm">
+                    <thead class="table-dark">
+                        <tr class="table-secondary">
+                            <th>Controller ID</th>
+                            <th>IP_address</th>
+							<th>OT_Protocol</th>
+                            <th>Last Update T</th>
+                            <th>Report Time</th>
+                            <th>Target PLC ID</th>
+							<th>Target PLC IP</th>
+                            <th>Exception Count</th>
+                            <th>Total Report</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for plcinfo in posts['controllerinfo'] %}
+                        <tr>
+                            <tr>
+                                <td> 
+                                    <a href="{{ url_for('ctrlpeerstate', postID=plcinfo['id'])}}" target="_blank">
+                                        {{plcinfo['id']}}
+                                    </a> 
+                                </td>
+    
+                                <td> {{plcinfo['ip']}}</td>
+                                <td>
+                                    {% if plcinfo['protocol'] == 'Modbus' %}
+                                        <span class="badge bg-success">{{plcinfo['protocol']}}</span>
+                                    {% else %}
+                                        <span class="badge bg-primary">{{plcinfo['protocol']}}</span>
+                                    {% endif%}
+                                </td>
+                                <td> {{plcinfo['lastUpdateT']}}</td>
+                                <td> {{plcinfo['reportT']}} mins</td>
+                                
+                                <td> 
+                                    <a href="{{ url_for('plcpeerstate', postID=plcinfo['TargetID'])}}" target="_blank">
+                                        {{plcinfo['TargetID']}}
+                                    </a> 
+                                </td>
+                                 <td> {{plcinfo['TargetIP']}}</td>
+                                <td>
+                                    {% if plcinfo['exceptCount'] == 0 %}
+                                        <span class="badge bg-success">{{plcinfo['exceptCount']}}</span>
+                                    {% else %}
+                                        <span class="badge bg-danger">{{plcinfo['exceptCount']}}</span>
+                                    {% endif%}
+                                </td>
+                                <td> {{plcinfo['totalRptCount']}}</td>
+                            </tr>
+                        </tr>
+                        {%endfor%}
+                    </tbody>
+                </table>
+            </li>
+        </ul>
+    </div>
+
+    <div class="col-sm-3">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h5> Table Information Detail</h5>
+            </li>
+            <li class="list-group-item">
+                <p>
+                    <span class="badge bg-secondary">Controller ID</span> :
+                    PLC Controller Unique ID, Click the ID to go to the Controller Detail Page.
+                </p>
+                <p>
+                    <span class="badge bg-secondary">IP_address</span> :
+                    Controller's Program VM IP address.
+                </p>
+                <p>
+                    <span class="badge bg-secondary">OT Protocol</span> :
+                    OT Protocol used by the Controller to communicate with the PLC.
+                </p>
+
+                <p>
+                    <span class="badge bg-secondary">Last Update T</span> :
+                    Time stamp of the Controller last time update to the monitor hub.
+                </p>
+
+                <p>
+                    <span class="badge bg-secondary">Report Time</span> :
+                    Time interval of the controller reporting to the monitor hub.
+                </p>
+
+                <p>
+                    <span class="badge bg-secondary">Target PLC ID</span> :
+                    The PLC emulator's unique ID the Controller is communicating with. Clicke the ID to go the to PLC
+                    Detail
+                    Page.
+                </p>
+
+                <p>
+                    <span class="badge bg-secondary">Target PLC IP</span> :
+                    The PLC emulator's program VM IP address.
+                </p>
+
+                <p>
+                    <span class="badge bg-secondary">Exception Count</span> :
+                    Number of exceptions the controller has reported to Monitor Hub.
+                </p>
+
+                <p>
+                    <span class="badge bg-secondary">Total Report</span> :
+                    Total Number of state the controller has report to Monitor Hub.
+                </p>
+
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+{% endblock %}

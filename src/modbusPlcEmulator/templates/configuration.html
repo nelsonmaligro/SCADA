@@ -1,0 +1,97 @@
+{% extends 'mgmbase.html' %}
+
+{% block title %} PLC Connection Configuration {% endblock %}
+
+{% block style%} {% endblock %}
+
+{% block mgmContent %}
+
+<ul class="list-group">
+
+    <li class="list-group-item">
+        <h3> <b class="text-success "> Connection Configuration </b> </h3>
+        <p> &#149; <b> Allow to read list </b>: only IP address in allow to read list can connect to the PLC and get
+            contacts/coils state.</p>
+        <p> &#149; <b> Allow to write list </b>: only IP address in allow to write list can connect to the PLC and change
+            contacts/coils state.</p>
+    </li>
+
+    <li class="list-group-item">
+        <h5> Config the node IP address allowed to read data from PLC</h5>
+        <br>
+        <p>
+            Default Allowed Read IP Address :
+            {% for ipstr in posts['defaultRip']%}
+            <span class="badge bg-primary"> {{ipstr}} </span>
+            {% endfor %}
+        </p>
+
+        <p>
+            Current Allowed Read IP Address :
+            {% for ipstr in posts['currentRip']%}
+            <span class="badge bg-success"> {{ipstr}} </span>
+            {% endfor %}
+        </p>
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col">
+                    <form method="POST" action="/resetAllowReadIp">
+                        <button class="btn btn-warning btn-primary btn-sm" type="submit"> Reset Current Allowed Read List to Default</button>
+                    </form>
+                  </div>
+                  <div class="col">
+                    <form method="POST" action="/addAllowReadIp">
+                        Add a new IP address:
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="xxx.xxx.xxx.xxx" name="newIp">
+                            <button class="btn btn-success" type="submit"> Add </button>
+                        </div>
+                    </form>
+                  </div>
+            </div>
+        </div>
+    </li>
+
+    <li class="list-group-item">
+        <h5> Config IP address allowed to set PLC (register/coils) </h5>
+        <br>
+        <p>
+            Default Allow Write IP Address :
+            {% for ipstr in posts['defaultWip']%}
+            <span class="badge bg-primary"> {{ipstr}} </span>
+            {% endfor %}
+        </p>
+
+        <p>
+            Current Allowed Write IP Address :
+            {% for ipstr in posts['currentWip']%}
+            <span class="badge bg-success"> {{ipstr}} </span>
+            {% endfor %}
+        </p>
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col">
+                    <form method="POST" action="/resetAllowWriteIp">
+                        <button class="btn btn-warning btn-primary btn-sm" type="submit"> Reset Current Allowed Write List to Default</button>
+                    </form>
+                </div>
+
+                <div class="col">
+                        <form method="POST" action="/addAllowWriteIp">
+                            Add a new IP address: 
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="xxx.xxx.xxx.xxx" name="newIp">
+                                <button class="btn btn-success" type="submit"> Add </button>
+                            </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+{{ messages[-1] }}
+{% endif %}
+{% endwith %}
+{% endblock %}

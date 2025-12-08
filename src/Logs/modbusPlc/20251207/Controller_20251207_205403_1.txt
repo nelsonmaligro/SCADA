@@ -1,0 +1,66 @@
+2025-12-07 20:54:14,792 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:14,792 INFO     Read coil state: None
+2025-12-07 20:54:15,797 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:15,797 INFO     Read coil state: None
+2025-12-07 20:54:16,811 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:16,811 INFO     Read coil state: None
+2025-12-07 20:54:17,819 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:17,819 INFO     Read coil state: None
+2025-12-07 20:54:18,831 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:18,834 INFO     Read coil state: None
+2025-12-07 20:54:19,847 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:19,847 INFO     Read coil state: None
+2025-12-07 20:54:20,858 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:20,858 INFO     Read coil state: None
+2025-12-07 20:54:21,870 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:21,870 INFO     Read coil state: None
+2025-12-07 20:54:22,878 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:22,878 INFO     Read coil state: None
+2025-12-07 20:54:23,893 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:23,894 INFO     Read coil state: None
+2025-12-07 20:54:24,898 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:24,898 INFO     Read coil state: None
+2025-12-07 20:54:25,905 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:25,905 INFO     Read coil state: None
+2025-12-07 20:54:26,913 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:26,914 INFO     Read coil state: None
+2025-12-07 20:54:27,922 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:27,922 INFO     Read coil state: None
+2025-12-07 20:54:28,933 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:28,933 INFO     Read coil state: None
+2025-12-07 20:54:29,949 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:29,950 INFO     Read coil state: None
+2025-12-07 20:54:30,957 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:30,957 INFO     Read coil state: None
+2025-12-07 20:54:31,960 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:31,960 INFO     Read coil state: None
+2025-12-07 20:54:32,963 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:32,963 INFO     Read coil state: None
+2025-12-07 20:54:33,970 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:33,970 INFO     Read coil state: None
+2025-12-07 20:54:34,983 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:34,983 INFO     Read coil state: None
+2025-12-07 20:54:35,987 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:35,989 INFO     Read coil state: None
+2025-12-07 20:54:37,003 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:37,004 INFO     Read coil state: None
+2025-12-07 20:54:38,008 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:38,008 INFO     Read coil state: None
+2025-12-07 20:54:39,014 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:39,014 INFO     Read coil state: None
+2025-12-07 20:54:40,015 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:40,015 INFO     Read coil state: None
+2025-12-07 20:54:41,027 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:41,027 INFO     Read coil state: None
+2025-12-07 20:54:42,039 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:42,040 INFO     Read coil state: None
+2025-12-07 20:54:43,040 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:43,040 INFO     Read coil state: None
+2025-12-07 20:54:44,048 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:44,048 INFO     Read coil state: None
+2025-12-07 20:54:45,050 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:45,050 INFO     Read coil state: None
+2025-12-07 20:54:46,055 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:46,055 INFO     Read coil state: None
+2025-12-07 20:54:47,068 INFO     Try connect to the PLC: modbusPLC01
+2025-12-07 20:54:47,068 INFO     Read coil state: None

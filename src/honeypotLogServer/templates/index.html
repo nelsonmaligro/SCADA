@@ -1,0 +1,48 @@
+{% extends 'mgmbase.html' %}
+
+{% block title %} HoneyPort Logs Archive Service {% endblock %}
+
+{% block style%} <style></style> {% endblock %}
+
+{% block mgmContent %}
+
+<ul class="list-group">
+    <li class="list-group-item">
+        <h3> Introduction </h3>
+        <p> This project aims to create an FTP server&client lib program for file transfer and a 
+            files management system for log data synchronization. We will develop an automated log 
+            file archive system that regularly collects newly generated log files from multiple nodes 
+            in a computer cluster and saves them on a central log file historian server. Additionally, 
+            a web interface will be provided on the log file historian server to allow users to access 
+            and review the archived logs.
+        </p>
+        <p>The system work flow diagram is shown below: </p>
+        <img src="{{url_for('static', filename='img/title.png')}}" class="img-thumbnail"> 
+    </li>
+
+    <li class="list-group-item">
+        <h3> Service Information </h3>
+        <table class="table table-dark table-bordered">
+            <thead>
+                <tr>
+                    <th>FTP Service Port</th>
+                    <th>Log Root Directory</th>
+                    <th>Log Max Upload Speed</th>
+                    <th>Current Agents Number</th>
+                    <th>Current Log Size</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{posts['FTPport']}}</td>
+                    <td> <span class="badge bg-secondary">{{posts['rootDir']}}</span></td>
+                    <td>{{posts['nodeUploadMax']}} Kb/sec</td>
+                    <td>{{posts['nodeNum']}}</td>
+                    <td>{{posts['nodeUploadMax']/1024 }} Mb</td>
+                </tr>
+            </tbody>
+        </table>
+    </li>
+</ul>
+
+{% endblock %}

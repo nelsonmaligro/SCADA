@@ -1,0 +1,49 @@
+{% extends 'mgmbase.html' %}
+
+{% block title %} SCADA-PLC {% endblock %}
+
+{% block style%}{% endblock %}
+
+{% block mgmContent %}
+
+<ul class="list-group">
+
+  <li class="list-group-item">
+    <h3> SCADA-PLC Orchestrator Hub </h3>
+  </li>
+
+  <li class="list-group-item">
+    <h4> <span class="badge badge-secondary">Introduction </span> </h4>
+    <p> <b> The SCADA-PLC Project is a distributed cybersecurity solution designed to mimic 
+            the behavior of real SCADA network control flows between Programable Logic Controllers 
+            (PLCs) and Human-Machine Interfaces (HMIs), the orchestrator is a full digital equivalent 
+            VM based system without any special OT-hardware. This system lures potential red team 
+            attackers into engaging with a simulated OT (Operational Technology) environment, enabling 
+            the collection of attack data, Digital Forensics and Incident Response (DFIR) datasets, 
+            and supporting the development of enhanced security measures. It also provides a platform 
+            for blue team defenders to monitor, analyze, and respond to cyber threats in industrial 
+            environments. The system is divided into three main subsystems: </b>
+    </p>
+    <div class="row">
+      <div class="col-sm-4">
+      <p><b> &#149; PLC Hardware Simulators Subsystem : </b> The subsystem includes multiple PLC_Emulation_VM to simulate 
+          Schneider Modicon M22X (Modbus-TCP) and Siemens S712xx (S7Comm) PLCs, capable of handling OT control 
+          requests and executing ladder logic to replicate realistic PLC behaviors.</p>
+      <p><b> &#149; PLC Data Controllers Subsystem : </b> The subsystem includes multiple `PLC_Contoller_VM`s to mimics 
+        various control workflows (1-to-1, 1-to-N, and N-to-N HMI-PLC interactions) in OT environments, validating 
+        control interactions and reporting verification states to the monitoring system. </p>
+      <p><b> &#149; SCADA Monitor Subsystem: </b> The subsystem includes one `Monitor_Hub_VM` and one Log_Archive_Database_VM 
+        to aggregate and process reports from PLC simulators, controllers, and network logs. It provides visualization, 
+        alerts, and notifications to defenders via different web based interactive dashboard. </p>
+        
+      
+      </div>
+      <div class="col-sm-8">
+        <p> The overview work flow of the SCADA-PLC Orchestrator is shown below :  </p>
+        <img src="{{url_for('static', filename='img/overview.png')}}" align="left" class="img-thumbnail" />
+      </div>
+    </div>
+  </li>
+
+</ul>
+{% endblock %}

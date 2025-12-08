@@ -1,0 +1,5 @@
+2025-12-08 15:19:10,585 INFO     PLC connection established
+2025-12-08 15:19:10,586 INFO     PLC controller verification loop started
+2025-12-08 15:19:10,586 INFO     Start one around verification.
+2025-12-08 15:19:20,599 INFO     Random generated input: [1, 1, 1, 0, 1, 0, 0, 0]
+2025-12-08 15:19:20,599 INFO     Expected output: [False, False, False, False, False, False, True, False]

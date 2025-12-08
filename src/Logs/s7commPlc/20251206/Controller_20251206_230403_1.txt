@@ -1,0 +1,95 @@
+2025-12-06 23:04:05,823 INFO     PLC controller Controller01 Inited
+2025-12-06 23:04:05,823 INFO     PLC controller verification loop started
+2025-12-06 23:04:05,824 INFO     Start one around verification.
+2025-12-06 23:04:15,825 INFO     Random generate input: [False, False, True, False, True, True, False, False]
+2025-12-06 23:04:15,825 INFO     Expected output: [False, True, False, True, False, False, True, True]
+2025-12-06 23:04:17,630 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:04:17,630 INFO     Start one around verification.
+2025-12-06 23:04:27,632 INFO     Random generate input: [False, False, False, False, True, True, True, True]
+2025-12-06 23:04:27,632 INFO     Expected output: [False, True, False, True, False, True, False, True]
+2025-12-06 23:04:29,441 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:04:29,442 INFO     Start one around verification.
+2025-12-06 23:04:39,442 INFO     Random generate input: [False, True, False, True, True, False, False, True]
+2025-12-06 23:04:39,442 INFO     Expected output: [False, False, False, True, False, False, True, False]
+2025-12-06 23:04:41,332 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:04:41,333 INFO     Start one around verification.
+2025-12-06 23:04:51,341 INFO     Random generate input: [False, False, False, False, True, False, True, True]
+2025-12-06 23:04:51,341 INFO     Expected output: [False, True, False, True, False, True, False, False]
+2025-12-06 23:04:53,222 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:04:53,222 INFO     Start one around verification.
+2025-12-06 23:05:03,232 INFO     Random generate input: [False, True, True, False, False, False, True, True]
+2025-12-06 23:05:03,232 INFO     Expected output: [False, False, False, True, True, True, False, False]
+2025-12-06 23:05:05,121 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:05:05,121 INFO     Start one around verification.
+2025-12-06 23:05:15,123 INFO     Random generate input: [False, True, True, True, True, True, True, True]
+2025-12-06 23:05:15,123 INFO     Expected output: [False, False, True, True, False, True, True, True]
+2025-12-06 23:05:17,012 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:05:17,012 INFO     Start one around verification.
+2025-12-06 23:05:27,016 INFO     Random generate input: [True, True, True, False, False, False, False, True]
+2025-12-06 23:05:27,016 INFO     Expected output: [True, False, False, False, True, False, False, False]
+2025-12-06 23:05:28,899 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:05:28,899 INFO     Start one around verification.
+2025-12-06 23:05:38,906 INFO     Random generate input: [True, False, True, True, True, True, True, False]
+2025-12-06 23:05:38,906 INFO     Expected output: [False, True, True, True, False, False, True, True]
+2025-12-06 23:05:40,798 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:05:40,799 INFO     Start one around verification.
+2025-12-06 23:05:50,811 INFO     Random generate input: [True, True, True, True, True, False, False, False]
+2025-12-06 23:05:50,811 INFO     Expected output: [False, False, True, False, False, False, True, False]
+2025-12-06 23:05:52,698 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:05:52,698 INFO     Start one around verification.
+2025-12-06 23:06:02,712 INFO     Random generate input: [False, True, True, False, True, False, False, True]
+2025-12-06 23:06:02,712 INFO     Expected output: [False, False, False, True, False, False, False, False]
+2025-12-06 23:06:04,590 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:06:04,590 INFO     Start one around verification.
+2025-12-06 23:06:14,603 INFO     Random generate input: [False, True, True, True, True, False, False, False]
+2025-12-06 23:06:14,603 INFO     Expected output: [False, False, True, True, False, False, True, False]
+2025-12-06 23:06:16,483 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:06:16,484 INFO     Start one around verification.
+2025-12-06 23:06:26,498 INFO     Random generate input: [False, False, False, False, True, False, True, True]
+2025-12-06 23:06:26,499 INFO     Expected output: [False, True, False, True, False, True, False, False]
+2025-12-06 23:06:28,382 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:06:28,383 INFO     Start one around verification.
+2025-12-06 23:06:38,392 INFO     Random generate input: [False, True, False, False, True, False, True, False]
+2025-12-06 23:06:38,392 INFO     Expected output: [False, False, False, True, False, True, True, False]
+2025-12-06 23:06:40,271 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:06:40,272 INFO     Start one around verification.
+2025-12-06 23:06:50,276 INFO     Random generate input: [False, False, True, True, False, False, True, True]
+2025-12-06 23:06:50,276 INFO     Expected output: [False, True, False, True, True, True, True, False]
+2025-12-06 23:06:52,156 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:06:52,156 INFO     Start one around verification.
+2025-12-06 23:07:02,169 INFO     Random generate input: [False, True, False, False, False, False, True, False]
+2025-12-06 23:07:02,169 INFO     Expected output: [False, False, False, True, True, True, True, False]
+2025-12-06 23:07:03,978 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:07:03,978 INFO     Start one around verification.
+2025-12-06 23:07:13,979 INFO     Random generate input: [True, True, False, True, False, True, False, True]
+2025-12-06 23:07:13,979 INFO     Expected output: [True, False, False, False, False, False, True, True]
+2025-12-06 23:07:15,829 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:07:15,829 INFO     Start one around verification.
+2025-12-06 23:07:25,829 INFO     Random generate input: [False, False, False, False, True, False, True, False]
+2025-12-06 23:07:25,830 INFO     Expected output: [False, True, False, True, False, True, True, False]
+2025-12-06 23:07:27,709 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:07:27,710 INFO     Start one around verification.
+2025-12-06 23:07:37,722 INFO     Random generate input: [True, False, False, True, False, True, True, True]
+2025-12-06 23:07:37,723 INFO     Expected output: [True, True, False, True, False, False, True, True]
+2025-12-06 23:07:39,598 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:07:39,598 INFO     Start one around verification.
+2025-12-06 23:07:49,611 INFO     Random generate input: [True, True, True, True, False, False, False, True]
+2025-12-06 23:07:49,611 INFO     Expected output: [True, False, False, False, True, False, True, False]
+2025-12-06 23:07:51,499 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:07:51,499 INFO     Start one around verification.
+2025-12-06 23:08:01,507 INFO     Random generate input: [False, True, False, False, False, True, True, True]
+2025-12-06 23:08:01,507 INFO     Expected output: [False, False, False, True, False, True, False, True]
+2025-12-06 23:08:03,410 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:08:03,410 INFO     Start one around verification.
+2025-12-06 23:08:13,424 INFO     Random generate input: [True, True, False, True, True, False, True, True]
+2025-12-06 23:08:13,424 INFO     Expected output: [True, False, False, True, False, False, True, False]
+2025-12-06 23:08:15,303 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:08:15,304 INFO     Start one around verification.
+2025-12-06 23:08:25,308 INFO     Random generate input: [False, False, False, True, True, True, False, False]
+2025-12-06 23:08:25,308 INFO     Expected output: [False, True, False, True, False, False, True, True]
+2025-12-06 23:08:27,182 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:08:27,182 INFO     Start one around verification.
+2025-12-06 23:08:37,188 INFO     Random generate input: [True, True, True, True, False, True, True, True]
+2025-12-06 23:08:37,188 INFO     Expected output: [True, False, False, True, False, False, True, True]
+2025-12-06 23:08:39,077 INFO     Lost connection to target PLC:S7commPLC02
+2025-12-06 23:08:39,078 INFO     Start one around verification.

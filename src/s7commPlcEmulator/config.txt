@@ -1,0 +1,32 @@
+# This is the config file template for the PLC honeypot project's S7Comm PLC 
+# emulator program <S7CommPlcApp.py>
+# Setup the parameter with below format (every line follows <key>:<value> format, the
+# key can not be changed):
+
+#-----------------------------------------------------------------------------
+# OwnID should not include space or other special characters.
+Own_ID:S7PLC01
+Own_IP:192.168.8.34
+
+# The OT protocol type string, "Modbus" or "S7Comm".
+PRO_TYPE:S7Comm
+
+# The ladder logic file id used by this PLC emulator.
+LADDER_ID:s7LadderLogic.py
+
+#-----------------------------------------------------------------------------
+# define the monitor hub parameters : 
+MON_IP:127.0.0.1
+MON_PORT:5000
+
+# Time interval to report to the monitor hub in seconds:
+RPT_INTERVAL:5
+
+#-----------------------------------------------------------------------------
+# Init the PLC local web Flask app parameters
+FLASK_SER_PORT:5002
+FLASK_DEBUG_MD:False
+FLASK_MULTI_TH:True
+
+# The PLC local web  use credential record file 
+USERS_RCD:users.json

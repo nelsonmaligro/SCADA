@@ -1,0 +1,39 @@
+{% extends 'mgmbase.html' %}
+
+{% block title %} Node Agent Client Infomation {% endblock %}
+
+{% block style%} <style></style> {% endblock %}
+
+{% block mgmContent %}
+    <ul class="list-group">
+        <li class="list-group-item">
+            <h3> Log Agents Information</h3>
+            <p></p>
+            <table class="table table-dark table-bordered">
+                <thead>
+                    <tr class="table-primary">
+                        <th>Agent ID</th>
+                        <th>Agent IP</th>
+                        <th>Login User Name</th>
+                        <th>Log Upload Interval</th>
+                        <th>Total LogFile Size</th>
+                        <th>Link to Agent Page</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for post in posts['agentsInfo'] %}
+                        <tr>
+                            <td> <span class="badge bg-primary"> {{ post['ID'] }} </span> </td>
+                            <td>{{ post['IP'] }}</td>
+                            <td>{{ post['LoginUserName']}}</td>
+                            <td> Every {{ post['UploadInv'] }} seconds</td>
+                            <td> </td>
+                            <td><a href="/agent/{{ post['ID'] }}" target="_blank">Link to Agent Page</a></td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </li>
+    </ul>
+    
+{% endblock %}

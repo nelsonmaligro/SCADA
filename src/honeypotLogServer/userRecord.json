@@ -1,0 +1,10 @@
+{
+    "admin": {
+        "passwd": "admin",
+        "perm": "elradfmwM"
+    },
+    "agent": {
+        "passwd": "agent",
+        "perm": "elradfmwM"
+    }
+}

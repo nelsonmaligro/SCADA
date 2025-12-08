@@ -1,0 +1,144 @@
+{% extends 'base.html' %}
+
+{% block title %} PLC Emulators View Page{% endblock %}
+
+{% block style%} <style></style> {% endblock %}
+
+{% block script %}
+
+{% endblock %}
+
+{% block content %}
+
+<ul class="list-group">
+    <li class="list-group-item">
+        <h3> PLC Hardware Simulator State View [ Emulator ID : 
+            <b class="text-success"> {{posts["plcinfo"]["id"]}}</b> ]  
+        </h3>
+    </li>
+</ul>
+
+<div class="row">
+    <div class="col-sm-3">
+        
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h5> PLC Hardware Simulator Information </h5>
+            </li>
+            <li class="list-group-item">
+                <P> <span class="badge bg-secondary">PLC Simulator ID </span> : 
+                    {{posts["plcinfo"]["id"]}} </P>
+                
+                <P> <span class="badge bg-secondary">PLC Simulator IP Address </span> : 
+                    {{posts["plcinfo"]["ip"]}} </P>
+          
+                <P> <span class="badge bg-secondary">PLC Simulator OT Protocol </span> : 
+                    {% if posts["plcinfo"]["protocol"] == 'Modbus' %}
+                        <span class="badge bg-success">{{posts["plcinfo"]["protocol"]}}</span>
+                    {% else %}
+                        <span class="badge bg-primary">{{posts["plcinfo"]["protocol"]}}</span>
+                    {% endif%}
+
+                </P>
+            
+                <P> <span class="badge bg-secondary">PLC Simulator Online State </span> : 
+                    {% if posts["plcinfo"]["online"] %}
+                        <span class="badge bg-success"> Online </span>
+                    {% else %}
+                        <span class="badge bg-danger"> Offline </span>
+                    {% endif%}
+                </P>
+
+                <P> <span class="badge bg-secondary">PLC Simulator Last Update Time</span> : 
+                    {{posts["plcinfo"]["lastUpdateT"]}} </P>
+                            
+                <P> <span class="badge bg-secondary">PLC Simulator Total Report Time</span> : 
+                    {{posts["plcinfo"]["reportT"]}} mins </P>
+
+                <P> <span class="badge bg-secondary">PLC Simulator Running Ladder logic ID</span> : 
+                    {{posts["plcinfo"]["ladderInfo"]}} </P>
+
+                <P> <span class="badge bg-secondary">Total Report Received</span> : 
+                    {{posts["plcinfo"]["totalRptCount"]}} </P>
+                    
+                <P> <span class="badge bg-secondary">Alert Report Received</span> : 
+                    {{posts["plcinfo"]["exceptCount"]}} </P>
+            </li>
+        </ul>
+    </div> 
+
+    <div class="col-sm-4">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h5 class="text-info"> PLC Simulator Reports</h5>
+            </li>
+
+            <li> 
+                <table class="table table-striped table-bordered table-sm">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Time</th>
+                            <th>Report Type</th>
+                            <th>Report Message</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for report in posts["report"] %}
+                            <tr>
+                                <td>{{report["time"]}}</td>
+                                <td>
+                                    {% if report["type"] == 'alert' %}
+                                        <span class="badge bg-danger">{{report["type"]}}</span>
+                                    {% elif report["type"] == 'warning' %}
+                                        <span class="badge bg-warning">{{report["type"]}}</span>
+                                    {% else %}
+                                        <span class="badge bg-info">{{report["type"]}}</span>
+                                    {% endif%}
+                                </td>
+                                <td>{{report["message"]}}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </li>
+        </ul>
+
+    </div> 
+
+    <div class="col-sm-4">
+    
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h5 class="text-warning"> Alerts And Warnings</h5>
+            </li>
+            <li> 
+                <table class="table table-striped table-bordered table-sm">
+                    <thead class="table-dark">
+                        <tr class="table-secondary">
+                            <th>Time</th>
+                            <th>Alert Type</th>
+                            <th>Report Message</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for report in posts["alert"] %}
+                            {% if report["type"] == 'warning' %}
+                                <tr class="table-warning">
+                            {% else %}
+                                <tr class="table-danger">
+                            {% endif%}
+                                <td>{{report["time"]}}</td>
+                                <td>{{report["type"]}}</td>
+                                <td>{{report["message"]}}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </li>
+        </ul>
+
+    </div> 
+
+</div>
+
+{% endblock %}

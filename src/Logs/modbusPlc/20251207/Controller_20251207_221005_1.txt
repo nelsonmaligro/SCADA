@@ -1,0 +1,30 @@
+2025-12-07 22:10:05,190 INFO     PLC connection established
+2025-12-07 22:10:05,191 INFO     PLC controller verification loop started
+2025-12-07 22:10:05,191 INFO     Start one around verification.
+2025-12-07 22:10:15,204 INFO     Random generated input: [1, 1, 0, 1, 0, 0, 0, 0]
+2025-12-07 22:10:15,204 INFO     Expected output: [False, False, False, False, True, False, True, False]
+2025-12-07 22:10:17,093 INFO     Get PLC result: [False, False, False, False, True, False, True, False]
+2025-12-07 22:10:17,093 INFO     Start one around verification.
+2025-12-07 22:10:27,103 INFO     Random generated input: [1, 1, 0, 0, 0, 1, 0, 0]
+2025-12-07 22:10:27,106 INFO     Expected output: [False, False, False, False, False, False, True, True]
+2025-12-07 22:10:29,008 INFO     Get PLC result: [False, False, False, False, False, False, True, True]
+2025-12-07 22:10:29,008 INFO     Start one around verification.
+2025-12-07 22:10:39,017 INFO     Random generated input: [0, 1, 1, 1, 1, 0, 0, 1]
+2025-12-07 22:10:39,017 INFO     Expected output: [False, False, True, True, False, False, True, False]
+2025-12-07 22:10:40,922 INFO     Get PLC result: [False, False, True, True, False, False, True, False]
+2025-12-07 22:10:40,922 INFO     Start one around verification.
+2025-12-07 22:10:50,928 INFO     Random generated input: [0, 0, 1, 1, 0, 0, 0, 0]
+2025-12-07 22:10:50,929 INFO     Expected output: [False, True, False, True, True, False, True, False]
+2025-12-07 22:10:52,815 INFO     Get PLC result: [True, True, False, True, True, False, True, False]
+2025-12-07 22:10:52,815 INFO     Error:PLC output not match with expected
+2025-12-07 22:10:55,487 INFO     Start one around verification.
+2025-12-07 22:11:05,498 INFO     Random generated input: [0, 0, 1, 1, 0, 1, 1, 1]
+2025-12-07 22:11:05,499 INFO     Expected output: [False, True, False, True, False, True, True, True]
+2025-12-07 22:11:07,399 INFO     Get PLC result: [True, True, False, True, False, True, True, True]
+2025-12-07 22:11:07,399 INFO     Error:PLC output not match with expected
+2025-12-07 22:12:16,920 INFO     Start one around verification.
+2025-12-07 22:12:26,936 INFO     Random generated input: [0, 0, 0, 1, 0, 0, 0, 1]
+2025-12-07 22:12:26,936 INFO     Expected output: [False, True, False, True, True, False, True, False]
+2025-12-07 22:12:28,833 INFO     Get PLC result: [True, True, False, True, True, False, True, False]
+2025-12-07 22:12:28,834 INFO     Error:PLC output not match with expected
+2025-12-07 22:14:22,787 INFO     Start one around verification.

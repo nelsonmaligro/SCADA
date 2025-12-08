@@ -1,0 +1,91 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<div class="row">
+    <div class="col-sm-2">
+        <ul class="list-group ">    
+        {% if not current_user.is_authenticated %}
+            <li class="list-group-item bg-secondary">   
+                <form method="POST" action="/login">
+                    <div class="input-group mb-3 ">
+                        <span class="input-group-text"> Name : </span>
+                        <input type="text" class="form-control" id="account" placeholder="Enter account" name="account">
+                    </div>
+
+                    <div class="input-group mb-3 ">
+                        <span class="input-group-text"> Password : </span>
+                        <input type="password" class="form-control" id="password" placeholder="Enter password"
+                        name="password">
+                    </div>
+                    <button type="submit" class="btn btn-">Login</button>
+                </form>
+            </li>
+        {% endif%}
+
+        <li class="list-group-item">   
+            <div class="list-group">
+                <a href="{{ url_for('index')}}" class="list-group-item list-group-item-action {% if posts['page'] == 0 %} bg-primary {% endif %}">
+                    <b class="{% if posts['page'] == 0 %} text-white {% endif %} "> &#11208; Start Page </b>
+                </a>
+            </div>
+        </li>
+        
+        {% if current_user.is_authenticated %}
+        <li class="list-group-item">
+            <div class="list-group">
+                <a href="{{ url_for('plcstate')}}" class="list-group-item list-group-item-action {% if posts['page'] == 1 %} bg-primary {% endif %}"> 
+                    <b class="{% if posts['page'] == 1 %} text-white {% endif %} "> PLC State </b>
+                </a>
+            </div>
+            {% if current_user.name=='admin'%}
+                <div class="list-group">
+                    <a href="{{ url_for('accmgmt')}}" class="list-group-item list-group-item-action {% if posts['page'] == 3 %} bg-primary {% endif %}"> 
+                        <b class="{% if posts['page'] == 3 %} text-white {% endif %} "> User Configuration </b>
+                    </a>
+                </div>
+            {%endif%}
+            <div class="list-group">
+                <a class="list-group-item list-group-item-action" href="{{ url_for('auth.logout') }}"> <b> Logout </b> </a>
+            </div>
+            
+        </li>
+        {% endif %}
+        
+        {% for message in get_flashed_messages() %}
+            <li class="list-group-item">  
+                <div class="alert alert-danger"> {{message}}</div>
+            </li>
+        {% endfor %}
+        
+        <li class="list-group-item">   
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action bg-primary">
+                    &#11208; Identification
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-primary">
+                    &#11208; Diagnostic Buffer
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-primary">
+                    &#11208; Communication
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-primary">
+                    &#11208; Variable Status
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-primary">
+                    &#11208; Data Logs
+                </a>
+                <a href="https://www.siemens.com/global/en/products/automation/systems/industrial/plc/s7-1200.html" class="list-group-item list-group-item-action bg-primary">
+                    &#11208; Introduction
+                </a>
+            </div>
+        </li>
+
+        </ul>
+    </div>
+
+    <div class="col-sm-10">
+        {% block mgmContent %}
+        {% endblock %}
+    </div>
+</div>
+{% endblock %}
