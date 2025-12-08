@@ -25,6 +25,7 @@ import s7commPlcDataMgr
 import monitorClient
 from monitorClient import RPT_ALERT, PLC_TYPE
 
+    
 #-----------------------------------------------------------------------------
 # Init the flask web app program.
 def createApp():
@@ -62,12 +63,15 @@ gv.iMonitorClient.start()
 # Init the Web UI thread.
 app = createApp()
 
+
+         
+
 # Please un-comment this function if you want to pick any http request such as normal curl
 #@app.before_request
 #def before_request():
-#    """Triggered by any request to the web server such as curl"""
-#    if gv.iMonitorClient: 
-#        gv.iMonitorClient.addReportDict(RPT_ALERT, "A http request is send to PLC emulator.")
+    #"""Triggered by any request to the web server such as curl"""
+    #if gv.iMonitorClient: 
+        #gv.iMonitorClient.addReportDict(RPT_ALERT, "A http request is sent to PLC emulator. Someone tries to scan the PLC web service")
 
 #-----------------------------------------------------------------------------
 #-----------------------------------------------------------------------------
@@ -80,7 +84,7 @@ def index():
              'ipaddress': gv.gOwnIP,
              'time': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
              }  # page index is used to highlight the left page slide bar.
-    if gv.iMonitorClient: gv.iMonitorClient.addReportDict(RPT_ALERT, "Someone tries to scan web service" )
+    #if gv.iMonitorClient: gv.iMonitorClient.addReportDict(RPT_ALERT, "A http request is sent to PLC emulator. Possible probe or scan to the PLC web service" )
     return render_template('index.html', posts=posts)
     
 #-----------------------------------------------------------------------------
@@ -167,3 +171,4 @@ if __name__ == '__main__':
         port=gv.gflaskPort,
         debug=gv.gflaskDebug,
         threaded=gv.gflaskMultiTH)
+        

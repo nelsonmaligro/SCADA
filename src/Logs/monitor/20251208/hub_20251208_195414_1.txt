@@ -1,0 +1,139 @@
+2025-12-08 19:54:14,045 INFO     Monitor Hub Data Manager Initialized.
+2025-12-08 19:54:15,367 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 19:54:15', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 19:54:15,367 INFO     Added a new PLC emulator: S7PLC01
+2025-12-08 19:54:15,368 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 19:56:21,560 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 19:56:21', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 19:56:21,563 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 19:56:21,563 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 19:58:11,698 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 19:58:11', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 19:58:11,699 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 19:58:11,699 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:11:50,418 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:11:50', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:11:50,419 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:11:50,419 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:11:50,576 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:11:50', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:11:50,576 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:11:50,576 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:19:35,672 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:19:35', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:19:35,673 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:19:35,673 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:20:27,454 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:20:27', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:20:27,455 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:20:27,455 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:20:46,921 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'login', 'Timestamp': '2025-12-08 20:20:46', 'Data': {'ID': 'S7Control01', 'IP': '192.168.8.34', 'Type': 'controller', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py', 'TargetID': 'S7PLC01', 'TargetIP': '192.168.8.34'}}
+2025-12-08 20:20:46,921 INFO     Added a new PLC controller: S7Control01
+2025-12-08 20:20:46,921 INFO     PLC Controller: S7Control01 login.
+2025-12-08 20:21:39,201 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:21:39', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:21:39,202 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:21:39,202 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:22:47,760 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:22:47', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:22:47,760 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:22:47,760 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:24:21,019 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:24:21', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:24:21,020 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:24:21,020 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:33:02,974 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:33:02', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:33:02,975 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:33:02,975 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:35:39,661 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:35:39', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:35:39,661 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:35:39,661 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:39:42,178 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:39:42', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:39:42,178 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:39:42,179 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:41:30,598 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:41:30', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:41:30,598 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:41:30,599 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:45:10,789 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:45:10', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:45:10,789 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:45:10,790 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:47:01,119 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:47:01', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:47:01,120 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:47:01,120 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:47:54,685 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:47:54', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:47:54,685 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:47:54,685 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:47:55,579 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:47:55', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:47:55,579 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:47:55,579 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:50:10,143 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:50:10', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:50:10,143 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:50:10,143 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:50:11,010 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:50:11', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:50:11,010 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:50:11,010 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:52:35,513 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:52:35', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:52:35,514 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:52:35,514 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:52:36,390 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:52:36', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:52:36,391 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:52:36,391 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:53:15,343 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:53:15', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:53:15,344 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:53:15,344 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:53:16,242 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:53:16', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:53:16,243 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:53:16,243 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:54:12,013 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:54:12', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:54:12,014 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:54:12,014 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:54:12,980 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:54:12', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:54:12,981 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:54:12,981 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:55:15,251 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:55:15', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:55:15,251 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:55:15,251 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:55:16,193 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:55:16', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:55:16,193 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:55:16,193 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:55:42,037 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:55:42', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:55:42,037 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:55:42,037 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:55:42,906 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:55:42', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:55:42,906 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:55:42,906 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:57:26,313 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:57:26', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:57:26,313 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:57:26,313 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:57:27,169 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:57:27', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:57:27,170 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:57:27,170 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:59:00,043 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:59:00', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:59:00,043 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:59:00,044 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 20:59:00,909 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 20:59:00', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 20:59:00,910 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 20:59:00,910 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 21:07:44,071 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 21:07:44', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 21:07:44,072 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 21:07:44,072 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 21:08:58,708 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 21:08:58', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 21:08:58,709 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 21:08:58,709 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 21:09:13,719 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:09:13', 'Data': {'type': 'alert', 'time': '2025-12-08 21:09:10', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:09:18,723 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:09:18', 'Data': {'type': 'alert', 'time': '2025-12-08 21:09:10', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:09:23,727 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:09:23', 'Data': {'type': 'alert', 'time': '2025-12-08 21:09:16', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:09:28,731 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:09:28', 'Data': {'type': 'alert', 'time': '2025-12-08 21:09:22', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:09:33,735 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:09:33', 'Data': {'type': 'alert', 'time': '2025-12-08 21:09:24', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:09:38,740 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:09:38', 'Data': {'type': 'alert', 'time': '2025-12-08 21:09:30', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:09:43,745 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:09:43', 'Data': {'type': 'alert', 'time': '2025-12-08 21:09:36', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:09:48,751 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:09:48', 'Data': {'type': 'alert', 'time': '2025-12-08 21:09:39', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:09:53,761 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:09:53', 'Data': {'type': 'alert', 'time': '2025-12-08 21:09:45', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:09:58,775 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:09:58', 'Data': {'type': 'alert', 'time': '2025-12-08 21:09:51', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:10:03,781 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:10:03', 'Data': {'type': 'alert', 'time': '2025-12-08 21:09:57', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:10:08,786 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:10:08', 'Data': {'type': 'alert', 'time': '2025-12-08 21:10:00', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:10:13,790 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:10:13', 'Data': {'type': 'alert', 'time': '2025-12-08 21:10:06', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:10:18,795 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:10:18', 'Data': {'type': 'alert', 'time': '2025-12-08 21:10:12', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:10:23,799 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:10:23', 'Data': {'type': 'alert', 'time': '2025-12-08 21:10:15', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:10:28,804 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:10:28', 'Data': {'type': 'alert', 'time': '2025-12-08 21:10:21', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:10:33,807 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:10:33', 'Data': {'type': 'alert', 'time': '2025-12-08 21:10:27', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:10:38,812 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:10:38', 'Data': {'type': 'alert', 'time': '2025-12-08 21:10:30', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:10:43,817 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:10:43', 'Data': {'type': 'alert', 'time': '2025-12-08 21:10:36', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:10:48,821 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:10:48', 'Data': {'type': 'alert', 'time': '2025-12-08 21:10:42', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:10:53,825 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:10:53', 'Data': {'type': 'alert', 'time': '2025-12-08 21:10:45', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:10:58,829 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:10:58', 'Data': {'type': 'alert', 'time': '2025-12-08 21:10:51', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:11:03,833 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:11:03', 'Data': {'type': 'alert', 'time': '2025-12-08 21:10:57', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:11:08,838 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:11:08', 'Data': {'type': 'alert', 'time': '2025-12-08 21:11:00', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:11:13,842 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:11:13', 'Data': {'type': 'alert', 'time': '2025-12-08 21:11:06', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:11:18,846 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:11:18', 'Data': {'type': 'alert', 'time': '2025-12-08 21:11:12', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}
+2025-12-08 21:11:23,851 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:11:23', 'Data': {'type': 'alert', 'time': '2025-12-08 21:11:15', 'message': 'alert : HTTP request from 192.168.8.34 to port 5002. Possible web probing or scan.'}}

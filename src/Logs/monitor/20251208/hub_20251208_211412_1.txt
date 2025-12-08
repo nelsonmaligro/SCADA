@@ -1,0 +1,68 @@
+2025-12-08 21:14:12,449 INFO     Monitor Hub Data Manager Initialized.
+2025-12-08 21:14:14,372 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 21:14:14', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 21:14:14,373 INFO     Added a new PLC emulator: S7PLC01
+2025-12-08 21:14:14,373 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 21:14:16,744 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'login', 'Timestamp': '2025-12-08 21:14:16', 'Data': {'ID': 'S7Control01', 'IP': '192.168.8.34', 'Type': 'controller', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py', 'TargetID': 'S7PLC01', 'TargetIP': '192.168.8.34'}}
+2025-12-08 21:14:16,745 INFO     Added a new PLC controller: S7Control01
+2025-12-08 21:14:16,745 INFO     PLC Controller: S7Control01 login.
+2025-12-08 21:14:31,750 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'normal', 'Timestamp': '2025-12-08 21:14:31', 'Data': {'type': 'normal', 'time': '2025-12-08 21:14:28', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 21:14:41,755 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'normal', 'Timestamp': '2025-12-08 21:14:41', 'Data': {'type': 'normal', 'time': '2025-12-08 21:14:40', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 21:14:56,761 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'normal', 'Timestamp': '2025-12-08 21:14:56', 'Data': {'type': 'normal', 'time': '2025-12-08 21:14:52', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 21:15:06,766 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'normal', 'Timestamp': '2025-12-08 21:15:06', 'Data': {'type': 'normal', 'time': '2025-12-08 21:15:04', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 21:15:16,771 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'normal', 'Timestamp': '2025-12-08 21:15:16', 'Data': {'type': 'normal', 'time': '2025-12-08 21:15:16', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 21:15:31,596 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 21:15:31', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 21:15:31,596 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 21:15:31,596 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 21:15:34,132 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'login', 'Timestamp': '2025-12-08 21:15:34', 'Data': {'ID': 'S7Control01', 'IP': '192.168.8.34', 'Type': 'controller', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py', 'TargetID': 'S7PLC01', 'TargetIP': '192.168.8.34'}}
+2025-12-08 21:15:34,132 INFO     Updated existed PLC controller info: S7Control01
+2025-12-08 21:15:34,132 INFO     PLC Controller: S7Control01 login.
+2025-12-08 21:15:49,137 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'normal', 'Timestamp': '2025-12-08 21:15:49', 'Data': {'type': 'normal', 'time': '2025-12-08 21:15:46', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 21:15:59,142 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'normal', 'Timestamp': '2025-12-08 21:15:59', 'Data': {'type': 'normal', 'time': '2025-12-08 21:15:57', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 21:16:14,147 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'normal', 'Timestamp': '2025-12-08 21:16:14', 'Data': {'type': 'normal', 'time': '2025-12-08 21:16:09', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 21:16:24,153 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'normal', 'Timestamp': '2025-12-08 21:16:24', 'Data': {'type': 'normal', 'time': '2025-12-08 21:16:21', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 21:16:34,158 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'normal', 'Timestamp': '2025-12-08 21:16:34', 'Data': {'type': 'normal', 'time': '2025-12-08 21:16:33', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 21:16:49,165 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'normal', 'Timestamp': '2025-12-08 21:16:49', 'Data': {'type': 'normal', 'time': '2025-12-08 21:16:45', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 21:16:59,170 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'normal', 'Timestamp': '2025-12-08 21:16:59', 'Data': {'type': 'normal', 'time': '2025-12-08 21:16:57', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 21:17:48,047 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 21:17:48', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 21:17:48,047 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 21:17:48,048 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 21:20:18,609 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 21:20:18', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 21:20:18,609 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 21:20:18,609 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 21:22:45,541 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 21:22:45', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 21:22:45,542 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 21:22:45,542 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 21:23:54,165 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 21:23:54', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 21:23:54,165 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 21:23:54,166 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 21:25:42,081 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 21:25:42', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 21:25:42,081 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 21:25:42,081 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 21:25:47,091 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:25:47', 'Data': {'type': 'alert', 'time': '2025-12-08 21:25:44', 'message': 'alert : A http request is sent to PLC emulator. Possible probe or scan to the PLC web service'}}
+2025-12-08 21:25:52,102 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:25:52', 'Data': {'type': 'alert', 'time': '2025-12-08 21:25:45', 'message': 'alert : A http request is sent to PLC emulator. Possible probe or scan to the PLC web service'}}
+2025-12-08 21:25:57,111 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:25:57', 'Data': {'type': 'alert', 'time': '2025-12-08 21:25:45', 'message': 'alert : A http request is sent to PLC emulator. Possible probe or scan to the PLC web service'}}
+2025-12-08 21:26:02,115 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:26:02', 'Data': {'type': 'alert', 'time': '2025-12-08 21:25:45', 'message': 'alert : A http request is sent to PLC emulator. Possible probe or scan to the PLC web service'}}
+2025-12-08 21:26:07,126 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:26:07', 'Data': {'type': 'alert', 'time': '2025-12-08 21:25:58', 'message': 'alert : A http request is sent to PLC emulator. Possible probe or scan to the PLC web service'}}
+2025-12-08 21:26:12,131 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:26:12', 'Data': {'type': 'alert', 'time': '2025-12-08 21:25:58', 'message': 'alert : A http request is sent to PLC emulator. Possible probe or scan to the PLC web service'}}
+2025-12-08 21:26:17,136 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:26:17', 'Data': {'type': 'alert', 'time': '2025-12-08 21:25:58', 'message': 'alert : A http request is sent to PLC emulator. Possible probe or scan to the PLC web service'}}
+2025-12-08 21:26:22,146 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:26:22', 'Data': {'type': 'alert', 'time': '2025-12-08 21:25:58', 'message': 'alert : A http request is sent to PLC emulator. Possible probe or scan to the PLC web service'}}
+2025-12-08 21:27:22,156 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:27:22', 'Data': {'type': 'alert', 'time': '2025-12-08 21:27:19', 'message': 'alert : A http request is sent to PLC emulator. Possible probe or scan to the PLC web service'}}
+2025-12-08 21:27:27,160 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:27:27', 'Data': {'type': 'alert', 'time': '2025-12-08 21:27:24', 'message': 'alert : A http request is sent to PLC emulator. Possible probe or scan to the PLC web service'}}
+2025-12-08 21:27:32,165 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:27:32', 'Data': {'type': 'alert', 'time': '2025-12-08 21:27:25', 'message': 'alert : A http request is sent to PLC emulator. Possible probe or scan to the PLC web service'}}
+2025-12-08 21:27:37,168 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:27:37', 'Data': {'type': 'alert', 'time': '2025-12-08 21:27:25', 'message': 'alert : A http request is sent to PLC emulator. Possible probe or scan to the PLC web service'}}
+2025-12-08 21:27:42,173 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:27:42', 'Data': {'type': 'alert', 'time': '2025-12-08 21:27:28', 'message': 'alert : A http request is sent to PLC emulator. Possible probe or scan to the PLC web service'}}
+2025-12-08 21:27:47,177 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:27:47', 'Data': {'type': 'alert', 'time': '2025-12-08 21:27:28', 'message': 'alert : A http request is sent to PLC emulator. Possible probe or scan to the PLC web service'}}
+2025-12-08 21:27:51,572 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 21:27:51', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 21:27:51,572 INFO     Updated existed PLC emulator info: S7PLC01
+2025-12-08 21:27:51,572 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 21:28:01,584 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:28:01', 'Data': {'type': 'alert', 'time': '2025-12-08 21:27:58', 'message': 'alert : A http request is sent to PLC emulator. Possible probe or scan to the PLC web service'}}
+2025-12-08 21:28:28,155 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'login', 'Timestamp': '2025-12-08 21:28:28', 'Data': {'ID': 'S7Control01', 'IP': '192.168.8.34', 'Type': 'controller', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py', 'TargetID': 'S7PLC01', 'TargetIP': '192.168.8.34'}}
+2025-12-08 21:28:28,155 INFO     Updated existed PLC controller info: S7Control01
+2025-12-08 21:28:28,155 INFO     PLC Controller: S7Control01 login.
+2025-12-08 21:28:36,593 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 21:28:36', 'Data': {'type': 'alert', 'time': '2025-12-08 21:28:36', 'message': 'alert : A http request is sent to PLC emulator. Possible probe or scan to the PLC web service'}}
+2025-12-08 21:28:43,160 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'normal', 'Timestamp': '2025-12-08 21:28:43', 'Data': {'type': 'normal', 'time': '2025-12-08 21:28:40', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 21:28:53,165 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'normal', 'Timestamp': '2025-12-08 21:28:53', 'Data': {'type': 'normal', 'time': '2025-12-08 21:28:51', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 21:29:08,174 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'normal', 'Timestamp': '2025-12-08 21:29:08', 'Data': {'type': 'normal', 'time': '2025-12-08 21:29:03', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 21:29:18,179 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'normal', 'Timestamp': '2025-12-08 21:29:18', 'Data': {'type': 'normal', 'time': '2025-12-08 21:29:15', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 21:29:28,184 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'normal', 'Timestamp': '2025-12-08 21:29:28', 'Data': {'type': 'normal', 'time': '2025-12-08 21:29:27', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 21:29:43,189 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'normal', 'Timestamp': '2025-12-08 21:29:43', 'Data': {'type': 'normal', 'time': '2025-12-08 21:29:39', 'message': 'normal : PLC Control Loop Normal'}}

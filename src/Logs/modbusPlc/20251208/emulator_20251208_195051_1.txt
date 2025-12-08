@@ -1,0 +1,2 @@
+2025-12-08 19:50:51,458 INFO     PLC data manager init finished.
+2025-12-08 19:50:51,459 INFO     PLC Modbus-TCP server started.

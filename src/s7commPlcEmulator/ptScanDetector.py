@@ -62,7 +62,7 @@ def monitorSynRequest(interface="eth0"):
 #-----------------------------------------------------------------------------
 #-----------------------------------------------------------------------------
 if __name__ == "__main__":
-    interface = "eth0"  # Replace with your network interface name
+    interface = "WiFi"  # Replace with your network interface name
     # Init the monitor client thread.
     gv.iMonitorClient.start()
     # start sniffing the 

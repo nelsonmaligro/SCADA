@@ -68,7 +68,7 @@ app = createApp()
 #def before_request():
 #    """Triggered by any request to the web server such as curl"""
 #    if gv.iMonitorClient: 
-#        gv.iMonitorClient.addReportDict(RPT_ALERT, "A http request is send to PLC emulator.")
+#        gv.iMonitorClient.addReportDict(RPT_ALERT, "A http request is sent to PLC emulator. Someone tries to scan the PLC web service")
 
 #-----------------------------------------------------------------------------
 #-----------------------------------------------------------------------------
@@ -79,7 +79,7 @@ def index():
     """ route to introduction index page."""
     posts = {'page': 0,}  # page index is used to highlight the left page slide bar.
     # Add the report API top trigger host scanned report 
-    if gv.iMonitorClient: gv.iMonitorClient.addReportDict(RPT_ALERT, "Someone tries to scan web service" )
+    #if gv.iMonitorClient: gv.iMonitorClient.addReportDict(RPT_ALERT, "Someone tries to scan web service" )
     return render_template('index.html', posts=posts)
     
 #-----------------------------------------------------------------------------

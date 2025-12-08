@@ -1,0 +1,5 @@
+2025-12-08 20:20:46,923 INFO     PLC controller S7Control01 Inited
+2025-12-08 20:20:46,923 INFO     PLC controller verification loop started
+2025-12-08 20:20:46,923 INFO     Start one around verification.
+2025-12-08 20:20:56,924 INFO     Random generate input: [True, True, True, True, True, False, False, False]
+2025-12-08 20:20:56,925 INFO     Expected output: [False, False, True, False, False, False, True, False]

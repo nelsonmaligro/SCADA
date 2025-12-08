@@ -1,0 +1,24 @@
+2025-12-08 19:44:39,402 INFO     Monitor Hub Data Manager Initialized.
+2025-12-08 19:44:41,675 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'login', 'Timestamp': '2025-12-08 19:44:41', 'Data': {'ID': 'S7PLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py'}}
+2025-12-08 19:44:41,675 INFO     Added a new PLC emulator: S7PLC01
+2025-12-08 19:44:41,675 INFO     PLC Emulator: S7PLC01 login.
+2025-12-08 19:44:43,744 INFO     Raw Data: {'ID': 'modbusPLC01', 'Action': 'login', 'Timestamp': '2025-12-08 19:44:43', 'Data': {'ID': 'modbusPLC01', 'IP': '192.168.8.34', 'Type': 'plc', 'Protocol': 'Modbus', 'LadderID': 'mbLadderLogic.py'}}
+2025-12-08 19:44:43,746 INFO     Added a new PLC emulator: modbusPLC01
+2025-12-08 19:44:43,746 INFO     PLC Emulator: modbusPLC01 login.
+2025-12-08 19:44:46,102 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'login', 'Timestamp': '2025-12-08 19:44:46', 'Data': {'ID': 'S7Control01', 'IP': '192.168.8.34', 'Type': 'controller', 'Protocol': 'S7Comm', 'LadderID': 's7LadderLogic.py', 'TargetID': 'S7PLC01', 'TargetIP': '192.168.8.34'}}
+2025-12-08 19:44:46,102 INFO     Added a new PLC controller: S7Control01
+2025-12-08 19:44:46,103 INFO     PLC Controller: S7Control01 login.
+2025-12-08 19:44:46,685 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 19:44:46', 'Data': {'type': 'alert', 'time': '2025-12-08 19:44:44', 'message': 'alert : A http request is send to PLC emulator. Someone tries to scan the PLC web service.'}}
+2025-12-08 19:44:48,179 INFO     Raw Data: {'ID': 'modbusControl01', 'Action': 'login', 'Timestamp': '2025-12-08 19:44:48', 'Data': {'ID': 'modbusControl01', 'IP': '192.168.8.34', 'Type': 'controller', 'Protocol': 'Modbus', 'LadderID': 'mbLadderLogic.py', 'TargetID': 'modbusPLC01', 'TargetIP': '192.168.8.34'}}
+2025-12-08 19:44:48,180 INFO     Added a new PLC controller: modbusControl01
+2025-12-08 19:44:48,180 INFO     PLC Controller: modbusControl01 login.
+2025-12-08 19:44:51,691 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 19:44:51', 'Data': {'type': 'alert', 'time': '2025-12-08 19:44:44', 'message': 'alert : A http request is send to PLC emulator. Someone tries to scan the PLC web service.'}}
+2025-12-08 19:44:56,696 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 19:44:56', 'Data': {'type': 'alert', 'time': '2025-12-08 19:44:44', 'message': 'alert : A http request is send to PLC emulator. Someone tries to scan the PLC web service.'}}
+2025-12-08 19:45:01,107 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'normal', 'Timestamp': '2025-12-08 19:45:01', 'Data': {'type': 'normal', 'time': '2025-12-08 19:44:57', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 19:45:01,700 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 19:45:01', 'Data': {'type': 'alert', 'time': '2025-12-08 19:44:44', 'message': 'alert : A http request is send to PLC emulator. Someone tries to scan the PLC web service.'}}
+2025-12-08 19:45:03,187 INFO     Raw Data: {'ID': 'modbusControl01', 'Action': 'normal', 'Timestamp': '2025-12-08 19:45:03', 'Data': {'type': 'normal', 'time': '2025-12-08 19:44:59', 'message': 'normal : Pass:PLC Control Loop Normal'}}
+2025-12-08 19:45:06,709 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 19:45:06', 'Data': {'type': 'alert', 'time': '2025-12-08 19:44:44', 'message': 'alert : A http request is send to PLC emulator. Someone tries to scan the PLC web service.'}}
+2025-12-08 19:45:11,113 INFO     Raw Data: {'ID': 'S7Control01', 'Action': 'normal', 'Timestamp': '2025-12-08 19:45:11', 'Data': {'type': 'normal', 'time': '2025-12-08 19:45:09', 'message': 'normal : PLC Control Loop Normal'}}
+2025-12-08 19:45:11,712 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 19:45:11', 'Data': {'type': 'alert', 'time': '2025-12-08 19:44:44', 'message': 'alert : A http request is send to PLC emulator. Someone tries to scan the PLC web service.'}}
+2025-12-08 19:45:13,191 INFO     Raw Data: {'ID': 'modbusControl01', 'Action': 'normal', 'Timestamp': '2025-12-08 19:45:13', 'Data': {'type': 'normal', 'time': '2025-12-08 19:45:11', 'message': 'normal : Pass:PLC Control Loop Normal'}}
+2025-12-08 19:45:16,717 INFO     Raw Data: {'ID': 'S7PLC01', 'Action': 'alert', 'Timestamp': '2025-12-08 19:45:16', 'Data': {'type': 'alert', 'time': '2025-12-08 19:44:44', 'message': 'alert : A http request is send to PLC emulator. Someone tries to scan the PLC web service.'}}
