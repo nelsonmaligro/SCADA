@@ -25,6 +25,11 @@
 
     <li class="list-group-item">
         <h3> <b class="text-primary"> PLC Address State </b></h3>
+     {% if posts["registerVal"] | select | list | length > 7 %}
+        <div class="alert alert-danger mt-2" role="alert">
+            <strong>Warning:</strong> High Temperature
+        </div>
+    {% endif %}
         <p> </p>
     </li>
     <br>
@@ -38,9 +43,9 @@
                     <thead class="table-dark">
                       <tr>
                         <th>Address</th>
-                        <th>Value</th>
-                        <th>Byte_Idx</th>
                         <th>Voltage</th>
+                        <th>Byte_Idx</th>
+                        <th>Value</th>
                       </tr>
                     </thead>
                     <tbody>
